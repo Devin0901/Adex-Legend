@@ -1,0 +1,7887 @@
+*{
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+body{
+    background-color: #BA3737;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    width: 100vw;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logoAdexLegend img{
+    padding-bottom: 20px;
+    width: 250px;
+    height: 100px;
+}
+
+.menuNavigation{
+    float: left;
+    text-align: center;
+}
+
+nav{
+    margin: auto;
+    display: flex;
+    background-color: #F25437;
+    width: 100vw;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li{
+    float: left;
+    text-align: center;
+}
+
+nav ul li a {
+    font-family: Jockey One;
+    font-size: 32px;
+    color: #FFEFCF;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    padding: 0px 75px 0px 75px;
+    line-height: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+nav ul li a:hover {
+    font-family: Jockey One;
+    font-size: 32px;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    padding: 0px 75px 0px 75px;
+    line-height: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.nav800px{
+    display: none;
+}
+@media (max-width: 1400px){
+    nav ul li a {
+        font-size: 32px;
+        padding: 0px 60px 0px 60px;
+    }
+    nav ul li a:hover {
+        font-size: 32px;
+        color: red;
+        padding: 0px 60px 0px 60px;
+    }
+}
+@media (max-width: 1300px){
+    nav ul li a {
+        font-size: 32px;
+        padding: 0px 40px 0px 40px;
+    }
+    nav ul li a:hover {
+        font-size: 32px;
+        padding: 0px 40px 0px 40px;
+    }
+}
+@media (max-width: 1100px){
+    nav ul li a {
+        font-size: 32px;
+        padding: 0px 25px 0px 25px;
+    }
+    
+    nav ul li a:hover {
+        font-size: 32px;
+        padding: 0px 25px 0px 25px;
+    }
+}
+@media (max-width: 1000px){
+    nav ul li a {
+        font-size: 26px;
+        padding: 0px 20px 0px 20px;
+    }
+    
+    nav ul li a:hover {
+        font-size: 26px;
+        padding: 0px 20px 0px 20px;
+    }
+}
+@media (max-width: 900px){
+    nav ul li a {
+        font-size: 26px;
+        padding: 0px 15px 0px 15px;
+    }
+    nav ul li a:hover {
+        font-size: 26px;
+        padding: 0px 15px 0px 15px;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav{
+        display: none;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .logoAdexLegendTab{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logoAdexLegendTabs{
+        width: 150px;
+        height: 50px;
+    }
+
+    .nav800px{
+        margin: auto;
+        display: flex;
+        background-color: #F25437;
+        width: 100vw;
+        height: 125px;
+        text-align: center; 
+    }
+
+    .nav800px ul{
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .nav800px ul li{
+        float: left;
+        text-align: center;
+    }
+
+    .nav800px ul li a {
+        font-family: Jockey One;
+        font-size: 28px;
+        color: #FFEFCF;
+        text-align: center;
+        text-decoration: none;
+        justify-content: center;
+        padding: 0px 30px 0px 30px;
+        line-height: 100px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .nav800px ul li a:hover{
+        font-family: Jockey One;
+        font-size: 28px;
+        color: red;
+        text-align: center;
+        text-decoration: none;
+        justify-content: center;
+        padding: 0px 30px 0px 30px;
+        line-height: 100px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 750px) {
+    .nav800px ul li a {
+        font-size: 20px;
+        padding: 0px 35px 0px 35px;
+    }
+
+    .nav800px ul li a:hover{
+        font-size: 20px;
+        padding: 0px 35px 0px 35px;
+    }
+}
+
+@media(max-width: 700px){
+    .nav800px ul li a {
+        font-size: 28px;
+        padding: 0px 16px 0px 16px;
+    }
+
+    .nav800px ul li a:hover{
+        font-size: 28px;
+        padding: 0px 16px 0px 16px;
+    }
+}
+
+@media(max-width: 600px){
+    .nav800px ul li a {
+        font-size: 20px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .nav800px ul li a:hover{
+        font-size: 20px;
+        padding: 0px 20px 0px 20px;
+    }
+}
+
+@media(max-width: 500px){
+    .nav800px ul li a {
+        font-size: 15px;
+        padding: 0px 17px 0px 17px;
+    }
+
+    .nav800px ul li a:hover{
+        font-size: 15px;
+        padding: 0px 17px 0px 17px;
+    }
+}
+
+@media(max-width: 400px){
+    .nav800px ul li a {
+        font-size: 12px;
+        padding: 0px 17px 0px 17px;
+    }
+
+    .nav800px ul li a:hover{
+        font-size: 12px;
+        padding: 0px 17px 0px 17px;
+    }
+}
+/* menu Home */
+*{
+    box-sizing: border-box;
+}
+center{
+    padding:100px 0 20px 0;
+}
+.bungkusVideoIntro{
+    display: flex;
+    justify-content: center;
+}
+video{
+    width:90%;
+    height:50%;
+    object-fit:contain;
+    text-align:center;
+}
+@media(max-width: 600px){
+    video{
+        margin-top: -50px;
+    }
+}
+@media(max-width: 500px){
+    video{
+        margin-top: -50px;
+    }
+}
+.late{
+    width:90vw;
+    height:7vw;
+    position:relative;
+    color:#000000;
+    margin-left:auto;
+    margin-right:auto;
+}
+.latest{
+    width:90vw;
+    height:5vw;
+    position:absolute;
+    text-align:center;
+    padding:10PX 0;
+}
+.latest p{
+    width:87.2vw;
+    height:5vw;
+    text-align:center;
+    font-size:3vw;
+    margin:auto;
+    padding-top:2px;
+    padding-bottom:7px;
+    font-family:Jockey One;
+    background-color:#f25437;
+}
+.desc{
+    width:90vw;
+    height:18vw;
+    position:absolute;
+    text-align:center;
+    background-color:#644848;
+}
+.desc h1{
+    width:90vw;
+    height:6vw;
+    position:absolute;
+    text-align:center;
+    font-size:5vw;
+}
+.desc p{
+    width:70vw;
+    height:9vw;
+    position:absolute;
+    text-align:center;
+    font-size:1.7vw;
+    top:40%;
+    left:10%;
+}
+.logo{
+    width:15vw;
+    height:8vw;
+    position:relative;
+    display:flex;
+}
+.bungkusSemuaAtasNews1{
+    display: flex;
+    justify-content: center;
+}
+.kotakNews1{
+    width: 1340px;
+    height: 290px;
+    background: white;
+}
+.bungkusAtasNews1{
+    display: flex;
+    justify-content: center;
+}
+.logoAdexNews{
+    width: 250px;
+    height: 150px;
+    margin-left: -450px;
+}
+.derpyNews1{
+    width: 500px;
+    height: 290px;
+    margin-left: 200px;
+}
+.bungkusBawahNews1{
+    display: flex;
+    justify-content: center;
+}
+.kotakDescNews1{
+    width: 1340px;
+    height: 260px;
+    background: #644848
+}
+.tulisanNewLegendNews{
+    font-family: Jockey One;
+    font-size: 96px;
+    color:  #FFEFCF;
+    padding-bottom: -20px;
+}
+.descNewsDerpy{
+   font-family: Jockey One;
+   font-size: 22px;
+   color: #FFEFCF;
+}
+@media (max-width: 1400px){
+    .kotakNews1{
+        width: 1220px;
+        height: 290px;
+        background: white; 
+    }
+    .logoAdexNews{
+        width: 300px;
+        height: 150px;
+        margin-left: -300px;
+    }
+    .derpyNews1{
+        width: 500px;
+        height: 290px;
+        margin-left: 150px;
+    }
+    .kotakDescNews1{
+        width: 1220px;
+        height: 260px;
+        background: #644848
+    }
+}
+@media (max-width: 1300px){
+    .kotakNews1{
+        width: 1070px;
+        height: 250px;
+        background: white; 
+    }
+    .logoAdexNews{
+        width: 300px;
+        height: 150px;
+        margin-left: -200px;
+    }
+    .derpyNews1{
+        width: 500px;
+        height: 290px;
+        margin-left: 80px;
+    }
+    .kotakDescNews1{
+        width: 1070px;
+        height: 260px;
+        background: #644848
+    }
+}
+@media(max-width: 1100px){
+    .kotakNews1{
+        width: 890px;
+        height: 200px;
+        background: white; 
+    }
+    .logoAdexNews{
+        width: 300px;
+        height: 150px;
+        margin-left: -120px;
+    }
+    .derpyNews1{
+        width: 500px;
+        height: 200px;
+        margin-left: -100px;
+    }
+    .kotakDescNews1{
+        width: 890px;
+        height: 240px;
+        background: #644848
+    }
+    .tulisanNewLegendNews{
+        font-family: Jockey One;
+        font-size: 75px;
+        color:  #FFEFCF;
+        padding-bottom: -20px;
+    }
+    .descNewsDerpy{
+       font-family: Jockey One;
+       font-size: 20px;
+       color: #FFEFCF;
+    }
+}
+@media(max-width: 1000px){
+    .kotakNews1{
+        width: 765px;
+        height: 200px;
+        background: white; 
+    }
+    .logoAdexNews{
+        width: 250px;
+        height: 100px;
+        margin-left: -50px;
+    }
+    .derpyNews1{
+        width: 400px;
+        height: 200px;
+    }
+    .kotakDescNews1{
+        width: 765px;
+        height: 180px;
+        background: #644848
+    }
+    .tulisanNewLegendNews{
+        font-family: Jockey One;
+        font-size: 65px;
+        color:  #FFEFCF;
+        padding-bottom: -20px;
+    }
+    .descNewsDerpy{
+       font-family: Jockey One;
+       font-size: 15px;
+       color: #FFEFCF;
+    }
+}
+@media(max-width: 800px){
+    .kotakNews1{
+        width: 670px;
+        height: 150px;
+    }
+    .logoAdexNews{
+        width: 250px;
+        height: 100px;
+        margin-left: -50px;
+    }
+    .derpyNews1{
+        width: 400px;
+        height: 200px;
+    }
+    .kotakDescNews1{
+        width: 670px;
+        height: 120px;
+    }
+    .tulisanNewLegendNews{
+        font-family: Jockey One;
+        font-size: 45px;
+        color:  #FFEFCF;
+        padding-bottom: -20px;
+    }
+    .descNewsDerpy{
+       font-family: Jockey One;
+       font-size: 13px;
+       color: #FFEFCF;
+    }
+}
+@media(max-width: 750px){
+    .kotakNews1{
+        width: 600px;
+        height: 150px;
+        background: white; 
+    }
+    .logoAdexNews{
+        width: 250px;
+        height: 100px;
+        margin-left: -50px;
+    }
+    .derpyNews1{
+        width: 400px;
+        height: 200px;
+    }
+    .kotakDescNews1{
+        width: 600px;
+        height: 110px;
+    }
+    .tulisanNewLegendNews{
+        font-size: 36px;
+        padding-bottom: -20px;
+    }
+    .descNewsDerpy{
+       font-size: 10px;
+    } 
+}
+
+@media(max-width: 700px){
+    .kotakNews1{
+        margin-top: 10px;
+        width: 530px;
+        height: 160px;
+    }
+    .logoAdexNews{
+        width: 200px;
+        height: 70px;
+        margin-left: -80px;
+    }
+    .derpyNews1{
+        width: 250px;
+        height: 160px;
+    }
+    .kotakDescNews1{
+        width: 530px;
+        height: 90px;
+    }
+    .tulisanNewLegendNews{
+        font-size: 20px;
+        padding-bottom: -20px;
+    }
+    .descNewsDerpy{
+        margin-top: 10px;
+        font-size: 8px;
+    }  
+}
+@media(max-width: 600px){
+    .kotakNews1{
+        width: 450px;
+        height: 110px;
+    }
+    .logoAdexNews{
+        margin-left: -100px;
+    }
+    .kotakDescNews1{
+        width: 450px;
+        height: 80px;
+    }
+    .derpyNews1{
+        height: 130px;
+    }
+    .tulisanNewLegendNews{
+        font-size: 20px;
+    }  
+    .descNewsDerpy{
+        font-size: 8px;
+    }  
+}
+
+@media(max-width: 500px){
+    .kotakNews1{
+        width: 350px;
+        height: 100px;
+    }
+    .logoAdexNews{
+        width: 100px;
+        height: 50px;
+        margin-left: -70px;
+    }
+    .kotakDescNews1{
+        width: 350px;
+        height: 80px;
+    }
+    .derpyNews1{
+        height: 130px;
+        margin-left: -40px;
+    }
+    .tulisanNewLegendNews{
+        font-size: 15px;
+    }  
+    .descNewsDerpy{
+        font-size: 8px;
+    }  
+}
+@media(max-width: 400px){
+    .kotakNews1{
+        width: 300px;
+        height: 80px;
+    }
+    .logoAdexNews{
+        width: 80px;
+        height: 40px;
+        margin-left: -50px;
+    }
+    .kotakDescNews1{
+        width: 300px;
+        height: 80px;
+    }
+    .derpyNews1{
+        width: 200px;
+        height: 100px;
+        margin-left: -40px;
+    }
+    .tulisanNewLegendNews{
+        font-size: 13px;
+    }  
+    .descNewsDerpy{
+        font-size: 7px;
+    }  
+}
+.bungkusSemuaAtasNews2{
+    display: flex;
+    justify-content: center;
+}
+.kotakNews2{
+    width: 1340px;
+    height: 550px;
+    background: #EBE5B3;
+}
+.bungkusAtasNews2{
+    display: flex;
+    justify-content: center;
+}
+.tulisanNewSeason{
+    font-family: Jockey One;
+    font-size: 90px;
+    width: 280px;
+    color: #FF0000;
+    margin-left: -300px;
+}
+.gambarNewSeason{
+    width: 500px;
+    height: 330px;
+    margin-left: 200px;
+}
+.descNews2{
+    font-family: Jockey One;
+    font-size: 24px;
+    width: 800px;
+    color: black;
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
+@media(max-width: 1400px){
+    .kotakNews2{
+        width: 1220px;
+        height: 550px;
+    }
+    .tulisanNewSeason{
+        width: 280px;
+        margin-left: -200px;
+    }
+    .gambarNewSeason{
+        width: 500px;
+        height: 330px;
+        margin-left: 200px;
+    }
+    .descNews2{
+        margin-left: 200px;
+        margin-top: 30px;
+    } 
+}
+
+@media(max-width: 1300px){
+    .kotakNews2{
+        width: 1070px;
+        height: 550px;
+    }
+    .tulisanNewSeason{
+        width: 280px;
+        margin-left: -100px;
+    }
+    .gambarNewSeason{
+        width: 500px;
+        height: 330px;
+        margin-left: 200px;
+    }
+    .descNews2{
+        width: 800px;
+        margin-left: 130px;
+        margin-top: 30px;
+    } 
+}
+
+@media(max-width: 1100px){
+    .kotakNews2{
+        width: 890px;
+        height: 440px;
+    }
+    .tulisanNewSeason{
+        font-size: 60px;
+        width: 200px;
+        margin-left: -100px;
+    }
+    .gambarNewSeason{
+        width: 400px;
+        height: 260px;
+        margin-left: 50px;
+    }
+    .descNews2{
+        width: 800px;
+        margin-left: 50px;
+        margin-top: 30px;
+    } 
+}
+@media(max-width: 1000px){
+    .kotakNews2{
+        width: 765px;
+        height: 380px;
+    }
+    .tulisanNewSeason{
+        font-size: 45px;
+        width: 100px;
+        margin-left: -100px;
+    }
+    .gambarNewSeason{
+        width: 300px;
+        height: 200px;
+    }
+    .descNews2{
+        font-size: 20px;
+        width: 500px;
+        margin-top: 30px;
+        margin-left: 130px;
+    } 
+}
+
+@media(max-width: 800px){
+    .kotakNews2{
+        width: 670px;
+        height: 270px;
+    }
+    .tulisanNewSeason{
+        font-size: 30px;
+        width: 100px;
+    }
+    .gambarNewSeason{
+        width: 300px;
+        height: 150px;
+        margin-left: 50px;
+    }
+    .descNews2{
+        font-size: 15px;
+        width: 500px;
+        margin-top: 30px;
+        margin-left: 80px;
+    } 
+}
+
+@media(max-width: 750px){
+    .kotakNews2{
+        width: 670px;
+        height: 270px;
+    }
+    .tulisanNewSeason{
+        font-size: 30px;
+        width: 100px;
+    }
+    .gambarNewSeason{
+        width: 300px;
+        height: 150px;
+        margin-left: 50px;
+    }
+    .descNews2{
+        font-size: 15px;
+        width: 500px;
+        margin-top: 30px;
+        margin-left: 80px;
+    }  
+}
+
+@media(max-width: 700px){
+    .kotakNews2{
+        margin-top: 10px;
+        width: 530px;
+        height: 190px;
+    }
+    .tulisanNewSeason{
+        font-family: Jockey One;
+        font-size: 25px;
+        width: 50px;
+    } 
+    .gambarNewSeason{
+        width: 200px;
+        height: 100px;
+        margin-left: 100px;
+    }
+    .descNews2{
+        font-size: 12px;
+        width: 500px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }  
+}
+
+@media(max-width: 600px){
+    .kotakNews2{
+        width: 450px;
+        height: 190px;
+    }
+    .tulisanNewSeason{
+        font-size: 20px;
+        width: 50px;
+    }
+    .gambarNewSeason{
+        width: 180px;
+        height: 110px;
+        margin-left: 50px;
+    }
+    .descNews2{
+        font-size: 11px;
+        width: 400px;
+    }  
+}
+
+@media(max-width: 500px){
+    .kotakNews2{
+        width: 350px;
+        height: 180px;
+    }
+    .tulisanNewSeason{
+        font-size: 16px;
+        width: 50px;
+        margin-left: -50px;
+    }
+    .gambarNewSeason{
+        width: 170px;
+        height: 100px;
+        margin-left: 20px;
+    }
+    .descNews2{
+        font-size: 9px;
+        width: 320px;
+    }  
+}
+
+@media(max-width: 400px){
+    .kotakNews2{
+        width: 300px;
+        height: 160px;
+    }
+    .tulisanNewSeason{
+        font-size: 16px;
+        width: 50px;
+        margin-left: -50px;
+    }
+    .gambarNewSeason{
+        width: 170px;
+        height: 100px;
+        margin-left: 20px;
+    }
+    .descNews2{
+        font-size: 7px;
+        width: 290px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }  
+}
+
+.bungkusSemuaNews3{
+    display: flex;
+    justify-content: center;
+}
+
+.bungkusSemuaNews3 img{
+    width: 1340px;
+    height: 550px;
+}
+
+.tulisanAdexLegendsNews3{
+    position: absolute;
+    font-family: Jockey One;
+    font-size: 64px;
+    color: white;
+    margin-left: -700px;
+}
+
+.kotakNewsArenaMode{
+    width: 300px;
+    height: 100px;
+    background: #919B51;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: -730px;
+}
+
+.tulisanNewGameMode{
+    font-family: Jockey One;
+    font-size: 96px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 50px;
+    color: white;
+}
+
+.kotakNewsArenaMode p{
+    font-family: Jockey One;
+    font-size: 64px;
+    color: black;
+}
+
+@media(max-width: 1400px){
+    .bungkusSemuaNews3 img{
+        width: 1220px;
+        height: 550px;
+    }
+    .tulisanAdexLegendsNews3{
+        font-size: 60px;
+        margin-left: -700px;
+    }
+    .tulisanNewGameMode{
+        font-size: 90px;
+        margin-top: 380px;
+        margin-left: 50px;
+    }
+}
+@media(max-width: 1300px){
+    .bungkusSemuaNews3 img{
+        width: 1070px;
+        height: 550px;
+    }
+    .tulisanAdexLegendsNews3{
+        font-size: 60px;
+        margin-left: -700px;
+    }
+    .tulisanNewGameMode{
+        font-size: 80px;
+        margin-top: 400px;
+        margin-left: 50px;
+    }
+}
+@media(max-width: 1100px){
+    .bungkusSemuaNews3 img{
+        width: 890px;
+        height: 440px;
+    }
+    .tulisanAdexLegendsNews3{
+        font-size: 50px;
+        margin-left: -500px;
+    }
+    .kotakNewsArenaMode{
+        width: 300px;
+        height: 70px;
+        margin-top: 150px;
+        margin-left: -500px;
+    }
+    .kotakNewsArenaMode p{
+        font-size: 50px;
+    }
+    
+    .tulisanNewGameMode{
+        font-size: 70px;
+        margin-top: 300px;
+        margin-left: 50px;
+    }
+}
+@media(max-width: 1000px){
+    .bungkusSemuaNews3 img{
+        width: 770px;
+        height: 380px;
+    }
+    .tulisanAdexLegendsNews3{
+        font-size: 45px;
+        margin-left: -500px;
+    }
+    .kotakNewsArenaMode{
+        width: 250px;
+        height: 60px;
+        margin-top: 150px;
+        margin-left: -500px;
+    }
+    .kotakNewsArenaMode p{
+        font-size: 45px;
+    }
+    .tulisanNewGameMode{
+        font-size: 60px;
+        margin-top: 250px;
+        margin-left: 50px;
+    }
+}
+@media(max-width: 800px){
+    .bungkusSemuaNews3 img{
+        width: 670px;
+        height: 270px;
+    }
+    .tulisanAdexLegendsNews3{
+        font-size: 35px;
+        margin-left: -400px;
+    }
+    .kotakNewsArenaMode{
+        width: 230px;
+        height: 50px;
+        margin-top: 70px;
+        margin-left: -400px;
+    }
+    .kotakNewsArenaMode p{
+        font-size: 35px;
+    }
+    .tulisanNewGameMode{
+        font-size: 40px;
+        margin-top: 180px;
+        margin-left: 50px;
+    }
+}
+@media(max-width: 700px){
+    .bungkusSemuaNews3 img{
+        width: 530px;
+        margin-top: 10px;
+        height: 190px;
+    }
+    .tulisanAdexLegendsNews3{
+        font-size: 25px;
+        margin-left: -350px;
+    }
+    .kotakNewsArenaMode{
+        width: 150px;
+        height: 40px;
+        margin-left: -350px;
+    }
+    .kotakNewsArenaMode p{
+        font-size: 25px;
+    }
+    .tulisanNewGameMode{
+        font-size: 30px;
+        margin-top: 130px;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 600px){
+    .bungkusSemuaNews3 img{
+        width: 450px;
+        margin-top: 10px;
+        height: 190px;
+    }
+    .tulisanAdexLegendsNews3{
+        font-size: 20px;
+        margin-left: -300px;
+        margin-top: 10px;
+    }
+    .kotakNewsArenaMode{
+        width: 130px;
+        height: 30px;
+        margin-left: -300px;
+    }
+    .kotakNewsArenaMode p{
+        font-size: 20px;
+    }
+    .tulisanNewGameMode{
+        font-size: 30px;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 500px){
+    .bungkusSemuaNews3 img{
+        width: 350px;
+        margin-top: 10px;
+        height: 150px;
+    }
+    .tulisanAdexLegendsNews3{
+        font-size: 15px;
+        margin-left: -220px;
+        margin-top: 10px;
+    }
+    .kotakNewsArenaMode{
+        width: 100px;
+        height: 25px;
+        margin-left: -220px;
+        margin-top: 50px;
+    }
+    .kotakNewsArenaMode p{
+        font-size: 15px;
+    }
+    .tulisanNewGameMode{
+        font-size: 20px;
+        margin-top: 120px;
+        margin-left: 20px;
+    } 
+}
+
+@media(max-width: 400px){
+    .bungkusSemuaNews3 img{
+        width: 300px;
+        margin-top: 10px;
+        height: 160px;
+    }
+    .tulisanAdexLegendsNews3{
+        font-size: 12px;
+        margin-left: -220px;
+        margin-top: 20px;
+    }
+    .kotakNewsArenaMode{
+        width: 70px;
+        height: 25px;
+    }
+    .kotakNewsArenaMode p{
+        font-size: 13px;
+    }
+    .tulisanNewGameMode{
+        font-size: 18px;
+    } 
+}
+.newsSlides {
+    display: none;
+}
+.news img {
+    vertical-align: middle;
+}
+.news {
+    max-width: 100vw;
+    position: relative;
+    margin: auto;
+    text-align:center;
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+.bungkusSemuaLeaderboard{
+    display: flex;
+    justify-content: center;
+}
+.bungkusLeaderboard1 img{
+    width: 550px;
+    height: 350px;
+}
+.board{
+    width: 1340px;
+    height: 1600px;
+    background-color:#FFeFCF;
+}
+.rank{
+    width: 158px;
+    height: 52px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.rank p{
+    color: black;
+    padding:5px;
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 34px;
+    color: black;
+}
+.name1Creepy p{
+    font-family: Jua;
+    font-size: 40px;
+    color: black;
+    margin-top: -300px;
+    margin-left: 700px;
+}
+.story p{
+    width: 530px;
+    font-family: Jockey One;
+    font-size: 24px;
+    color: black;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+.char1{
+    width:36vw;
+    height:30vw;
+    position:absolute;
+    display:flex;
+    padding-top:10px;
+    top:30%;
+    left:57%;
+}
+.rank1{
+    width: 158px;
+    height: 52px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+.rank1 p{
+    color: black;
+    padding:5px;
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 34px;
+    color: black;
+}
+.bungkusLeaderboard2{
+    display: flex;
+    justify-content: center;
+}
+.bungkusLeaderboard2 img{
+    width: 600px;
+    height: 400px;
+}
+.namaYelanNews{
+    font-family: Jua;
+    font-size: 40px;
+    color: black;
+    margin-left: -10px;
+    margin-top: 50px;
+}
+.descYelanNews{
+    font-family: Jockey One;
+    font-size: 24px;
+    color: black;
+    width: 530px;
+    margin-top: 20px;
+}
+.char2{
+    width:40vw;
+    height:24vw;
+    position:absolute;
+    display:flex;
+    padding-top:100px;
+    bottom:8%;
+}
+.bungkusLeaderboard3{
+    display: flex;
+    justify-content: center;
+}
+.bungkusLeaderboard3 img{
+    width : 700px;
+    height: 400px;
+    margin-left: -100px;
+}
+.rank2{
+    width: 158px;
+    height: 52px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+.rank2 p{
+    color: black;
+    padding:5px;
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 34px;
+    color: black;
+}
+.name2Leaderboard p{
+    font-family: Jua;
+    font-size: 40px;
+    color: black;
+    margin-top: 50px;
+}
+.story2 p{
+    width: 530px;
+    font-family: Jockey One;
+    font-size: 24px;
+    color: black;
+    margin-top: 130px;
+    margin-left: -120px;
+}
+
+@media(max-width: 1400px){
+    .board{
+        width: 1220px;
+        height: 1600px;
+    }
+    .namaYelanNews{
+        font-size: 40px;
+        margin-left: -10px;
+        margin-top: 50px;
+    }
+}
+
+@media(max-width: 1300px){
+    .board{
+        width: 1070px;
+        height: 1800px;
+    }
+    .rank{
+        margin-left: 450px;
+        margin-top: 20px;
+    }
+    .rank1{
+        margin-left: 450px;
+        margin-top: 150px;
+    }
+    .story p{
+        width: 300px;
+        font-size: 24px;
+        margin-top: 15px;
+        margin-left: 700px;
+    }
+    .descYelanNews{
+        font-size: 24px;
+        width: 300px;
+        margin-top: 20px;
+    }
+    .namaYelanNews{
+        font-size: 40px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .rank2{
+        width: 158px;
+        height: 52px;
+        margin-top: 150px;
+        margin-left: 450px;
+    }
+    .story2 p{
+        width: 300px;
+        font-size: 24px;
+        margin-top: 130px;
+    }
+}
+
+@media(max-width: 1100px){
+    .board{
+        width: 890px;
+        height: 1800px;
+    }
+    .rank{
+        width: 130px;
+        height: 52px;
+        margin-left: 400px;
+        margin-top: 20px;
+    }
+    .name1Creepy p{
+        font-size: 40px;
+        margin-top: -250px;
+        margin-left: 500px;
+    }
+    .bungkusLeaderboard1 img{
+        width: 400px;
+        height: 300px;
+    }
+    .story p{
+        width: 250px;
+        font-size: 24px;
+        margin-top: 15px;
+        margin-left: 500px;
+    }
+    .rank1{
+        width: 158px;
+        height: 52px;
+        margin-left: 380px;
+        margin-top: 150px;
+    }
+    .namaYelanNews{
+        font-size: 40px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .bungkusLeaderboard2 img{
+        width: 400px;
+        height: 300px;
+        margin-left: 150px;
+    }
+    .descYelanNews{
+        font-size: 24px;
+        width: 300px;
+        margin-left: 100px;
+    }
+    .bungkusLeaderboard3 img{
+        width: 400px;
+        height: 300px;
+        margin-left: -50px;
+    }
+}
+
+@media(max-width: 1000px){
+    .board{
+        width: 760px;
+        height: 1820px;
+    }
+    .rank{
+        width: 130px;
+        height: 52px;
+        margin-left: 300px;
+        margin-top: 20px;
+    }
+    .name1Creepy p{
+        font-size: 40px;
+        margin-top: -300px;
+        margin-left: 450px;
+    }
+    .bungkusLeaderboard1 img{
+        width: 400px;
+        height: 300px;
+    }
+    .story p{
+        width: 250px;
+        font-family: Jockey One;
+        font-size: 24px;
+        color: black;
+        margin-top: 15px;
+        margin-left: 450px;
+    }
+    .rank1{
+        width: 158px;
+        height: 52px;
+        background: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        justify-content: center;
+        margin-left: 300px;
+        margin-top: 150px;
+    }
+    .namaYelanNews{
+        font-family: Jua;
+        font-size: 40px;
+        color: black;
+        margin-top: 50px;
+        margin-left: -5px;
+    }
+    .bungkusLeaderboard2 img{
+        width: 400px;
+        height: 300px;
+        margin-left: -20px;
+    }
+    .char1{
+        width:30vw;
+        height:25vw;
+        position:absolute;
+        display:flex;
+        padding-top:10px;
+        top:30%;
+        left:57%;
+    }
+    .descYelanNews{
+        font-family: Jockey One;
+        font-size: 24px;
+        color: black;
+        width: 300px;
+        margin-left: 0px;
+
+    }
+    .bungkusLeaderboard3 img{
+        width: 400px;
+        height: 300px;
+        margin-left: -50px;
+    }
+
+    .rank2{
+        width: 158px;
+        height: 52px;
+        margin-left: 300px;
+        margin-top: 150px;
+    }
+}
+
+@media(max-width: 800px){
+    .board{
+        width: 680px;
+        height: 1000px;
+        background-color:#FFeFCF;
+    }
+    .rank{
+        width: 130px;
+        height: 52px;
+        margin-left: 300px;
+        margin-top: 20px;
+    }
+    .name1Creepy p{
+        font-size: 20px;
+        margin-top: -190px;
+        margin-left: 380px;
+    }
+    .bungkusLeaderboard1 img{
+        width: 300px;
+        height: 200px;
+    }
+    .story p{
+        width: 250px;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 380px;
+    }
+    .rank1{
+        width: 158px;
+        height: 52px;
+        margin-left: 300px;
+        margin-top: 50px;
+    }
+    .namaYelanNews{
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .bungkusLeaderboard2 img{
+        width: 260px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .descYelanNews{
+        font-size: 15px;
+        width: 300px;
+        margin-left: 50px;
+    }
+    .bungkusLeaderboard3 img{
+        width: 300px;
+        height: 200px;
+    }
+    .rank2{
+        width: 158px;
+        height: 52px;
+        margin-left: 300px;
+        margin-top: 50px;
+    }
+
+    .name2Leaderboard p{
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .story2 p{
+        width: 220px;
+        font-size: 15px;
+        margin-top: 100px;
+        margin-left: -55px;
+    }
+}
+
+@media(max-width: 700px){
+    .board{
+        margin-top: 10px;
+        width: 530px;
+        height: 1000px;
+    }
+    .rank{
+        width: 110px;
+        height: 40px;
+        margin-left: 220px;
+    }
+    .rank p{
+        font-size: 20px;
+    }
+    .name1Creepy p{
+        font-size: 20px;
+        margin-left: 280px;
+        margin-top: -120px;
+    }
+    .bungkusLeaderboard1 img{
+        width: 250px;
+        height: 150px;
+    }
+    .story p{
+        width: 200px;
+        font-size: 10px;
+        margin-top: 15px;
+        margin-left: 280px;
+    }
+    .rank1{
+        width: 110px;
+        height: 40px;
+        margin-left: 225px;
+        margin-top: 50px;
+    }
+    .rank1 p{
+        font-size: 20px;
+    }
+    .namaYelanNews{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .bungkusLeaderboard2 img{
+        width: 200px;
+        height: 150px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .descYelanNews{
+        font-size: 10px;
+        width: 200px;
+        margin-left: 20px;
+
+    }
+    .bungkusLeaderboard3 img{
+        width: 300px;
+        height: 200px;
+    }
+    .rank2{
+        width: 110px;
+        height: 40px;
+        margin-left: 210px;
+    }
+    .rank2 p{
+        font-size: 20px;
+    }
+    .name2Leaderboard p{
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+    .story2 p{
+        width: 200px;
+        font-size: 10px;
+        margin-top: 100px;
+        margin-left: -55px;
+    }
+}
+
+@media(max-width: 600px){
+    .board{
+        margin-top: 10px;
+        width: 440px;
+        height: 680px;
+    }
+    .rank{
+        width: 70px;
+        height: 30px;
+        margin-left: 190px;
+    }
+    .rank p{
+        font-size: 15px;
+    }
+    .name1Creepy p{
+        font-size: 15px;
+        margin-left: 230px;
+        margin-top: -100px;
+    }
+    .bungkusLeaderboard1 img{
+        width: 200px;
+        height: 120px;
+    }
+    .story p{
+        width: 200px;
+        font-size: 10px;
+        margin-top: 12px;
+        margin-left: 230px;
+    }
+    .rank1{
+        width: 70px;
+        height: 30px;
+        margin-left: 190px;
+        margin-top: 50px;
+    }
+    .rank1 p{
+        font-size: 15px;
+    }
+    .namaYelanNews{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .bungkusLeaderboard2 img{
+        width: 150px;
+        height: 120px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .descYelanNews{
+        font-size: 10px;
+        width: 200px;
+        margin-left: 20px;
+
+    }
+    .bungkusLeaderboard3 img{
+        width: 200px;
+        height: 150px;
+        margin-left: 20px;
+    }
+    .rank2{
+        width: 70px;
+        height: 30px;
+        margin-left: 190px;
+    }
+    .rank2 p{
+        font-size: 15px;
+    }
+    .name2Leaderboard p{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .story2 p{
+        width: 200px;
+        font-size: 10px;
+        margin-top: 60px;
+        margin-left: -55px;
+    }
+}
+
+@media(max-width: 500px){
+    .board{
+        margin-top: 10px;
+        width: 370px;
+        height: 680px;
+    }
+    .rank{
+        width: 70px;
+        height: 30px;
+        margin-left: 150px;
+    }
+    .rank p{
+        font-size: 13px;
+    }
+    .name1Creepy p{
+        font-size: 15px;
+        margin-left: 200px;
+        margin-top: -100px;
+    }
+    .bungkusLeaderboard1 img{
+        width: 200px;
+        height: 120px;
+    }
+    .story p{
+        width: 150px;
+        font-size: 9px;
+        margin-top: 12px;
+        margin-left: 200px;
+    }
+    .rank1{
+        width: 70px;
+        height: 30px;
+        margin-left: 140px;
+        margin-top: 50px;
+    }
+    .rank1 p{
+        font-size: 13px;
+    }
+    .namaYelanNews{
+        font-size: 15px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .bungkusLeaderboard2 img{
+        width: 150px;
+        height: 120px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .descYelanNews{
+        font-size: 9px;
+        width: 150px;
+        margin-left: 30px;
+
+    }
+    .bungkusLeaderboard3 img{
+        width: 200px;
+        height: 150px;
+        margin-left: -50px;
+    }
+    .rank2{
+        width: 70px;
+        height: 30px;
+        margin-left: 150px;
+    }
+    .rank2 p{
+        font-size: 15px;
+    }
+    .name2Leaderboard p{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .story2 p{
+        width: 130px;
+        font-size: 9px;
+        margin-top: 60px;
+        margin-left: -55px;
+    }
+}
+
+@media(max-width: 400px){
+    .board{
+        margin-top: 10px;
+        width: 300px;
+        height: 530px;
+    }
+    .rank{
+        width: 60px;
+        height: 20px;
+        margin-left: 120px;
+    }
+    .rank p{
+        font-size: 10px;
+        margin-top: -1px;
+    }
+    .name1Creepy p{
+        font-size: 10px;
+        margin-left: 155px;
+        margin-top: -85px;
+    }
+    .bungkusLeaderboard1 img{
+        width: 150px;
+        height: 100px;
+    }
+    .story p{
+        width: 140px;
+        font-size: 7px;
+        margin-left: 155px;
+    }
+    .rank1{
+        width: 60px;
+        height: 20px;
+        margin-left: 120px;
+    }
+    .rank1 p{
+        font-size: 10px;
+        margin-top: -1px;
+    }
+    .namaYelanNews{
+        font-size: 10px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .bungkusLeaderboard2 img{
+        width: 130px;
+        height: 110px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .descYelanNews{
+        font-size: 7px;
+        width: 130px;
+        margin-left: 20px;
+
+    }
+    .bungkusLeaderboard3 img{
+        width: 150px;
+        height: 120px;
+        margin-left: -20px;
+    }
+    .rank2{
+        width: 50px;
+        height: 20px;
+        margin-left: 120px;
+    }
+    .rank2 p{
+        font-size: 10px;
+        margin-top: -2px;
+    }
+    .name2Leaderboard p{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .story2 p{
+        width: 130px;
+        font-size: 7px;
+        margin-top: 60px;
+        margin-left: -25px;
+    }
+}
+
+/* menu legend */
+/* Derpy */
+.wrapper{
+    display:flex;
+    align-items:flex-end;
+    flex-wrap: wrap;
+}
+.legend{
+    display:flex;
+    align-items:flex-end;
+    margin:100px 0px 0px 100px;
+    width: 324px;
+    height: 205px;
+    background:#D9D9D9;
+    -ms-transform:skewX(-10deg);
+    -webkit-transform:skewX(-10deg);
+    transform:skewX(-10deg);
+}
+.derpyLegend1{
+    width: 350px;
+    height: 210px;
+    margin-right: -100px;
+}
+.logoLegendMenu{
+    width: 44px;
+    height: 42px;
+    margin-left: 10px;
+}
+.name{
+    position:absolute;
+    display:flex;
+    align-items:center; 
+    width: 324px;
+    height:77px;
+    background:white;
+    text-align:center;
+}
+.logo{
+    position:relative;
+    margin-left:auto;
+    margin-bottom:auto;
+    width:64px;
+    height:47px;
+    background:white;
+}
+.writeName{
+    width:324px;
+    height:43px;
+    font-family: Jockey One;
+    font-size:36px;
+    color:black;
+}
+
+/* Ashborn */
+.ashbornLegend2{
+    width: 330px;
+    height: 200px;
+    margin-right: -200px;
+}
+/* Creepy */
+.creepyLegend3{
+    width: 300px;
+    height: 190px;
+    margin-right: -100px;
+}
+
+/* Yelan */
+.yelanLegend4{
+    width: 270px;
+    height: 190px;
+    margin-right: -500px;
+}
+
+/* Gunther */
+.guntherLegend5{
+    width: 280px;
+    height: 200px;
+    margin-right: -100px;
+}
+
+/* Joyce */
+.joyceLegend6{
+    width: 280px;
+    height: 200px;
+    margin-right: -100px;
+}
+
+/* Loyre */
+.loyreLegend7{
+    width: 300px;
+    height: 200px;
+    margin-right: -100px;
+}
+
+/* Noisy */
+.noisyLegend8{
+    width: 360px;
+    height: 200px;
+    margin-right: -100px;
+}
+
+/* Clin */
+.clinLegend9{
+    width: 300px;
+    height: 200px;
+    margin-right: -100px;
+}
+
+/* Lala */
+.lalaLegend10{
+    width: 300px;
+    height: 200px;
+    margin-right: -100px;
+}
+
+/* John */
+.johnLegend11{
+    width: 300px;
+    height: 200px;
+    margin-right: -100px;
+}
+
+/* Brix */
+.brixLegend12{
+    width: 250px;
+    height: 200px;
+    margin-right: -100px;
+}
+
+@media(max-width: 800px){
+    .legend{
+        margin:70px 0px 0px 70px;
+        width: 150px;
+        height: 100px;
+    }
+    .derpyLegend1{
+        width: 150px;
+        height: 100px;
+        margin-left: 0px;
+    }
+    .ashbornLegend2{
+        width: 150px;
+        height: 90px;
+    }
+    .creepyLegend3{
+        width: 130px;
+        height: 80px;
+        margin-right: -100px;
+    } 
+    .yelanLegend4{
+        width: 130px;
+        height: 90px;
+        margin-right: -500px;
+    }
+    .guntherLegend5{
+        width: 120px;
+        height: 90px;
+        margin-right: -100px;
+    }
+    .joyceLegend6{
+        width: 150px;
+        height: 90px;
+        margin-right: -100px;
+    }
+    .loyreLegend7{
+        width: 150px;
+        height: 100px;
+        margin-right: -100px;
+    }
+    .noisyLegend8{
+        width: 150px;
+        height: 95px;
+        margin-right: -100px;
+    }
+    .clinLegend9{
+        width: 150px;
+        height: 90px;
+        margin-right: -100px;
+    }
+    .lalaLegend10{
+        width: 150px;
+        height: 90px;
+        margin-right: -100px;
+    }
+    .johnLegend11{
+        width: 150px;
+        height: 90px;
+        margin-right: -100px;
+    }
+    .brixLegend12{
+        width: 150px;
+        height: 99px;
+        margin-right: -100px;
+    }
+    .logoLegendMenu{
+        width: 30px;
+        height: 25px;
+    } 
+    .name{
+        width: 150px;
+        height: 30px;
+    }
+    .logo{
+        width:50px;
+        height:34px;
+    }
+
+    .writeName{
+        width: 150px;
+        height: 20px;
+        font-size:20px;
+    }
+}
+
+/*All Legend */
+.bungkusIsiSemua{
+    justify-content: center;
+    display:flex;
+    align-items:flex-end;
+    flex-wrap: wrap;
+}
+/* Derpy Legend */
+.gambarDerpy{
+    width: 600px;
+    height: 500px;
+}
+
+/* Legend Creepy */
+.gambarCreepy{
+    width: 600px;
+    height: 500px;
+}
+/* Brix legend */
+.gambarBrix{
+    width: 600px;
+    height: 600px;
+}
+/* Yelan Legend */
+.gambarYelan{
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+}
+/* Loyre Legend */
+.gambarLoyre{
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+}
+/* Lala Legend */
+.gambarLala{
+    width: 600px;
+    height: 500px;
+    margin-top: 50px; 
+}
+/* Ashborn Legend */
+.gambarAshborn{
+    width: 650px;
+    height: 500px;
+}
+/* Gunther legend */
+.gambarGunther{
+    width: 600px;
+    height: 500px;
+    padding-right: 70px;
+}
+/*Joyce Legemd */
+.gambarJoyce{
+    width: 600px;
+    height: 520px;
+    margin-top: 50px;
+}
+/* Noisy Legend */
+.gambarNoisy{
+    width: 600px;
+    height: 500px;
+}
+/* John Legend */
+.gambarJohn{
+    width: 620px;
+    height: 520px;
+    margin-top: 50px;
+    padding-right: 40px;
+}
+/*Clin Legend*/
+.gambarClin{
+    width: 600px;
+    height: 520px;
+    margin-top: 50px;
+}
+
+.legendNames{
+    display: flex;
+    box-sizing: border-box;
+    width: 583px;
+    height: 86px;
+    margin-top: 50px;
+    background: #FFEFCF;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.tulisanLegend{
+    font-family: Jockey One;
+    font-size: 48px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+.roleLegend{
+    display: flex;
+    box-sizing: border-box;
+    background: #FFEFCF;
+    width: 583px;
+    height: 86px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.tulisanRoleLegend{
+    font-family: Jockey One;
+    font-size: 48px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+.gambarRoleLegend{
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+} 
+
+.descLegend{
+    width: 590px;
+    height: 330px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: #FFEFCF;
+}
+
+.tulisanDescLegend{
+    font-family: Jockey One;
+    font-size: 24px;
+    padding-left: 24px;
+    padding-top: 12px;
+    padding-right: 26px;
+}
+
+.borderAbility1{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+    margin-top: 90px;
+    background: #F25437;;
+}
+
+.tulisanAbility1{
+    font-family: Jockey One;
+    display: flex;
+    font-size: 48px;
+    margin-top: 15px;
+    color: white;
+}
+
+.gambarBungkus1{
+    justify-content: center;
+    display:flex;
+    align-items:flex-end;
+    flex-wrap: wrap;
+}
+
+.allSkillLegend{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.skillLegend1{
+    width: 200px;
+    height: 200px;
+}
+
+.skillLegend2{
+    width: 263px;
+    height: 200px;
+}
+
+.tulisanSkillLegend1{
+    font-family: Jockey One;
+    font-size: 38px;
+    color: white;
+    margin-left: 30px;
+}
+
+.tulisanSkillLegend2{
+    font-family: Jockey One;
+    font-size: 38px;
+    color: white;
+    margin-left: 50px;
+}
+
+@media(max-width: 800px){
+    /* Derpy Legend */
+    .gambarDerpy{
+        width: 400px;
+        height: 300px;
+    }
+    
+    /* Legend Creepy */
+    .gambarCreepy{
+        width: 400px;
+        height: 300px;
+    }
+    /* Brix legend */
+    .gambarBrix{
+        width: 400px;
+        height: 400px;
+    }
+    /* Yelan Legend */
+    .gambarYelan{
+        width: 400px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    /* Loyre Legend */
+    .gambarLoyre{
+        width: 400px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    /* Lala Legend */
+    .gambarLala{
+        width: 400px;
+        height: 300px;
+        margin-top: 50px; 
+    }
+    /* Ashborn Legend */
+    .gambarAshborn{
+        width: 450px;
+        height: 300px;
+    }
+    /* Gunther legend */
+    .gambarGunther{
+        width: 400px;
+        height: 300px;
+        padding-right: 70px;
+    }
+    /*Joyce Legemd */
+    .gambarJoyce{
+        width: 450px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    /* Noisy Legend */
+    .gambarNoisy{
+        width: 400px;
+        height: 300px;
+    }
+    /* John Legend */
+    .gambarJohn{
+        width: 420px;
+        height: 320px;
+        margin-top: 50px;
+        padding-right: 40px;
+    }
+    /*Clin Legend*/
+    .gambarClin{
+        width: 400px;
+        height: 320px;
+        margin-top: 50px;
+    }
+    
+    .legendNames{
+        width: 350px;
+        height: 65px;
+        margin-top: 50px;
+        border-radius: 20px;
+        margin-left: 95px;
+    }
+    
+    .tulisanLegend{
+        font-family: Jockey One;
+        font-size: 35px;
+        color: black;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+    
+    .roleLegend{
+        width: 440px;
+        height: 65px;
+        margin-top: 50px;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 50px;
+    }
+    
+    .tulisanRoleLegend{
+        font-family: Jockey One;
+        font-size: 35px;
+        color: black;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+    
+    .gambarRoleLegend{
+        padding-right: 10px;
+        padding-left: 15px;
+        padding-top: 10px;
+        width: 90px;
+        height: 60px;
+    } 
+    
+    .descLegend{
+        width: 550px;
+        height: 267px;
+        box-sizing: border-box;
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+    
+    .tulisanDescLegend{
+        font-family: Jockey One;
+        font-size: 20px;
+        padding-left: 24px;
+        padding-top: 12px;
+        padding-right: 26px;
+    }
+    
+    .borderAbility1{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 100px;
+        margin-top: 90px;
+        background: #F25437;;
+    }
+    
+    .tulisanAbility1{
+        font-family: Jockey One;
+        display: flex;
+        font-size: 48px;
+        margin-top: 15px;
+        color: white;
+    }
+    
+    .allSkillLegend{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    .skillLegend1{
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+    }
+    
+    .skillLegend2{
+        width: 118px;
+        height: 100px;
+        margin-left: 20px;
+    }
+    
+    .tulisanSkillLegend1{
+        font-family: Jockey One;
+        font-size: 24px;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    .tulisanSkillLegend2{
+        font-family: Jockey One;
+        font-size: 24px;
+        color: white;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 600px){
+    /* Derpy Legend */
+       .gambarDerpy{
+        width: 350px;
+        height: 250px;
+    }
+    
+    /* Legend Creepy */
+    .gambarCreepy{
+        width: 350px;
+        height: 250px;
+    }
+    /* Brix legend */
+    .gambarBrix{
+        width: 350px;
+        height: 250px;
+    }
+    /* Yelan Legend */
+    .gambarYelan{
+        width: 350px;
+        height: 250px;
+        margin-top: 50px;
+    }
+    /* Loyre Legend */
+    .gambarLoyre{
+        width: 350px;
+        height: 250px;
+        margin-top: 50px;
+    }
+    /* Lala Legend */
+    .gambarLala{
+        width: 350px;
+        height: 250px;
+        margin-top: 50px; 
+    }
+    /* Ashborn Legend */
+    .gambarAshborn{
+        width: 350px;
+        height: 250px;
+    }
+    /* Gunther legend */
+    .gambarGunther{
+        width: 350px;
+        height: 250px;
+        padding-right: 70px;
+    }
+    /*Joyce Legemd */
+    .gambarJoyce{
+        width: 400px;
+        height: 250px;
+        margin-top: 50px;
+    }
+    /* Noisy Legend */
+    .gambarNoisy{
+        width: 350px;
+        height: 250px;
+    }
+    /* John Legend */
+    .gambarJohn{
+        width: 350px;
+        height: 270px;
+        margin-top: 50px;
+        padding-right: 40px;
+    }
+    /*Clin Legend*/
+    .gambarClin{
+        width: 350px;
+        height: 270px;
+        margin-top: 50px;
+    }
+    
+    .legendNames{
+        width: 300px;
+        height: 60px;
+        margin-top: 50px;
+        border-radius: 20px;
+        margin-left: 90px;
+    }
+    
+    .tulisanLegend{
+        font-family: Jockey One;
+        font-size: 28px;
+        color: black;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+    
+    .roleLegend{
+        width: 390px;
+        height: 60px;
+        margin-top: 50px;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 45px;
+    }
+    
+    .tulisanRoleLegend{
+        font-family: Jockey One;
+        font-size: 28px;
+        padding-left: 20px;
+        padding-top: 8px;
+    } 
+    .gambarRoleLegend{
+        width: 70px;
+        height: 50px;
+    } 
+    
+    .descLegend{
+        width: 470px;
+        height: 260px;
+        box-sizing: border-box;
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+    
+    .tulisanDescLegend{
+        font-family: Jockey One;
+        font-size: 18px;
+        padding-left: 24px;
+        padding-top: 12px;
+        padding-right: 26px;
+    }
+    
+    .borderAbility1{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 100px;
+        margin-top: 90px;
+        background: #F25437;;
+    }
+    
+    .tulisanAbility1{
+        font-family: Jockey One;
+        display: flex;
+        font-size: 48px;
+        margin-top: 15px;
+        color: white;
+    }
+    
+    .allSkillLegend{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    
+    .skillLegend1{
+        width: 70px;
+        height: 70px;
+        margin-left: 20px;
+    }
+    
+    .skillLegend2{
+        width: 88px;
+        height: 70px;
+        margin-left: 20px;
+    }
+    
+    .tulisanSkillLegend1{
+        font-family: Jockey One;
+        font-size: 18px;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    .tulisanSkillLegend2{
+        font-family: Jockey One;
+        font-size: 18px;
+        color: white;
+        margin-left: 30px;
+    }
+}
+
+
+@media(max-width: 500px){
+    /* Derpy Legend */
+       .gambarDerpy{
+        width: 300px;
+        height: 200px;
+    }
+    
+    /* Legend Creepy */
+    .gambarCreepy{
+        width: 300px;
+        height: 200px;
+    }
+    /* Brix legend */
+    .gambarBrix{
+        width: 300px;
+        height: 200px;
+    }
+    /* Yelan Legend */
+    .gambarYelan{
+        width: 300px;
+        height: 200px;
+        margin-top: 50px;
+    }
+    /* Loyre Legend */
+    .gambarLoyre{
+        width: 300px;
+        height: 200px;
+        margin-top: 50px;
+    }
+    /* Lala Legend */
+    .gambarLala{
+        width: 300px;
+        height: 200px;
+        margin-top: 50px; 
+    }
+    /* Ashborn Legend */
+    .gambarAshborn{
+        width: 300px;
+        height: 200px;
+    }
+    /* Gunther legend */
+    .gambarGunther{
+        width: 300px;
+        height: 200px;
+        padding-right: 70px;
+    }
+    /*Joyce Legemd */
+    .gambarJoyce{
+        width: 320px;
+        height: 220px;
+        margin-top: 50px;
+    }
+    /* Noisy Legend */
+    .gambarNoisy{
+        width: 300px;
+        height: 200px;
+    }
+    /* John Legend */
+    .gambarJohn{
+        width: 300px;
+        height: 220px;
+        margin-top: 50px;
+        padding-right: 40px;
+    }
+    /*Clin Legend*/
+    .gambarClin{
+        width: 300px;
+        height: 220px;
+        margin-top: 50px;
+    }
+    
+    .legendNames{
+        width: 250px;
+        height: 50px;
+        margin-top: 50px;
+        border-radius: 20px;
+        margin-left: 60px;
+    }
+    
+    .tulisanLegend{
+        font-family: Jockey One;
+        font-size: 23px;
+        color: black;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+    
+    .roleLegend{
+        width: 300px;
+        height: 50px;
+        margin-top: 50px;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 35px;
+    }
+    
+    .tulisanRoleLegend{
+        font-family: Jockey One;
+        font-size: 23px;
+        padding-left: 20px;
+        padding-top: 8px;
+    } 
+    .gambarRoleLegend{
+        width: 60px;
+        height: 40px;
+    } 
+    
+    .descLegend{
+        width: 350px;
+        height: 260px;
+        box-sizing: border-box;
+        margin-top: 50px;
+        margin-left: 18px;
+    }
+    
+    .tulisanDescLegend{
+        font-family: Jockey One;
+        font-size: 15px;
+        padding-left: 24px;
+        padding-top: 12px;
+        padding-right: 26px;
+    }
+    
+    .borderAbility1{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 100px;
+        margin-top: 90px;
+        background: #F25437;;
+    }
+    
+    .tulisanAbility1{
+        font-family: Jockey One;
+        display: flex;
+        font-size: 48px;
+        margin-top: 15px;
+        color: white;
+    }
+    
+    .allSkillLegend{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    
+    .skillLegend1{
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    
+    .skillLegend2{
+        width: 68px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    
+    .tulisanSkillLegend1{
+        font-family: Jockey One;
+        font-size: 18px;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    .tulisanSkillLegend2{
+        font-family: Jockey One;
+        font-size: 18px;
+        color: white;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width: 400px){
+       /* Derpy Legend */
+       .gambarDerpy{
+        width: 250px;
+        height: 150px;
+    }
+    
+    /* Legend Creepy */
+    .gambarCreepy{
+        width: 250px;
+        height: 150px;
+    }
+    /* Brix legend */
+    .gambarBrix{
+        width: 250px;
+        height: 150px;
+    }
+    /* Yelan Legend */
+    .gambarYelan{
+        width: 250px;
+        height: 150px;
+        margin-top: 50px;
+    }
+    /* Loyre Legend */
+    .gambarLoyre{
+        width: 250px;
+        height: 150px;
+        margin-top: 50px;
+    }
+    /* Lala Legend */
+    .gambarLala{
+        width: 250px;
+        height: 150px;
+        margin-top: 50px; 
+    }
+    /* Ashborn Legend */
+    .gambarAshborn{
+        width: 250px;
+        height: 150px;
+    }
+    /* Gunther legend */
+    .gambarGunther{
+        width: 250px;
+        height: 150px;
+        padding-right: 70px;
+    }
+    /*Joyce Legemd */
+    .gambarJoyce{
+        width: 250px;
+        height: 180px;
+        margin-top: 50px;
+    }
+    /* Noisy Legend */
+    .gambarNoisy{
+        width: 250px;
+        height: 150px;
+    }
+    /* John Legend */
+    .gambarJohn{
+        width: 250px;
+        height: 170px;
+        margin-top: 50px;
+        padding-right: 40px;
+    }
+    /*Clin Legend*/
+    .gambarClin{
+        width: 250px;
+        height: 170px;
+        margin-top: 50px;
+    }
+    
+    .legendNames{
+        width: 210px;
+        height: 40px;
+        margin-top: 50px;
+        border-radius: 20px;
+        margin-left: 55px;
+    }
+    
+    .tulisanLegend{
+        font-family: Jockey One;
+        font-size: 18px;
+        color: black;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+    
+    .roleLegend{
+        width: 250px;
+        height: 40px;
+        margin-top: 50px;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 35px;
+    }
+    
+    .tulisanRoleLegend{
+        font-family: Jockey One;
+        font-size: 18px;
+        padding-left: 20px;
+        padding-top: 8px;
+    } 
+    .gambarRoleLegend{
+        width: 50px;
+        height: 30px;
+    } 
+    
+    .descLegend{
+        width: 310px;
+        height: 200px;
+        box-sizing: border-box;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    
+    .tulisanDescLegend{
+        font-family: Jockey One;
+        font-size: 12px;
+        padding-left: 24px;
+        padding-top: 12px;
+        padding-right: 26px;
+    }
+    
+    .borderAbility1{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 100px;
+        margin-top: 90px;
+        background: #F25437;;
+    }
+    
+    .tulisanAbility1{
+        font-family: Jockey One;
+        display: flex;
+        font-size: 48px;
+        margin-top: 15px;
+        color: white;
+    }
+    
+    .allSkillLegend{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    
+    .skillLegend1{
+        width: 50px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    
+    .skillLegend2{
+        width: 68px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    
+    .tulisanSkillLegend1{
+        font-family: Jockey One;
+        font-size: 18px;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    .tulisanSkillLegend2{
+        font-family: Jockey One;
+        font-size: 18px;
+        color: white;
+        margin-left: 20px;
+    }
+}
+
+/* menu maps */
+.bungkusBorderMapAtas{
+    display: flex;
+    justify-content: center;
+}
+.border1And2{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.border1Map{
+    box-sizing: border-box;
+    width: 416px;
+    margin-top: 30px;
+    height: 103px;
+    background: #FFEFCF;
+    border: 1px solid black;
+}
+.border1Map:hover{
+    box-sizing: border-box;
+    width: 416px;
+    margin-top: 30px;
+    height: 103px;
+    background: #FFD076;
+    border: 1px solid black;
+}
+.tulisanBorder1Map{
+    font-family: Jockey One;
+    font-size: 32px;
+    text-align: center;
+    color: black;
+    margin-top: 25px;
+}
+.tulisanBorder1Map:hover{
+    font-family: Jockey One;
+    font-size: 32px;
+    text-align: center;
+    color: black;
+    margin-top: 25px;
+}
+.border2Map{
+    box-sizing: border-box;
+    width: 416px;
+    height: 103px;
+    background: #FFEFCF;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+.border2Map:hover{
+    box-sizing: border-box;
+    width: 416px;
+    height: 103px;
+    background: #FFD076;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+.tulisanBorder2Map{
+    font-family: Jockey One;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 25px;
+    color: black;
+}
+
+.tulisanBorder2Map:hover{
+    font-family: Jockey One;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 25px;
+    color: black;
+}
+.judulBorderAllMaps{
+    justify-content: center;
+    width: 100vw;
+    height: 83px;
+    background: #FFD076;
+}
+.bagianAllMaps{
+    font-family: Jockey One;
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+/* Frozen House Map */
+.bungkusMap1{
+    display: flex;
+    justify-content: center;
+}
+
+.map1{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.gambarMap1{
+    width: 1100px;
+    height: 500px;
+    z-index: 1;
+    margin-top: 60px;
+    margin-right: 250px;
+}
+
+.borderMap1{
+    position: absolute;
+    box-sizing: border-box;
+    background: #FF0000;
+    width: 280px;
+    height: 72px;
+    border: 1px solid black;
+    z-index: 4;
+    margin-top: -540px;
+    margin-left: -50px;
+}
+
+.tulisanMap1{
+    font-family: Jockey One;
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.borderDescMap1{
+    position: absolute;
+    width: 507px;
+    height: 245px;
+    background: white;
+    margin-left: 750px;
+    margin-top: -130px;
+    background: #FFEFCF;
+}
+
+.descMap1{
+    font-family: Jockey One;
+    font-size: 32px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* Snake Island Map */
+.bungkusMap2{
+    display: flex;
+    justify-content: center;
+}
+.map2{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.gambarMap2{
+    width: 1028px;
+    height: 463px;
+    z-index: 1;
+    margin-top: 60px; 
+    margin-left: 250px; 
+}
+
+.borderMap2{
+    position: absolute;
+    box-sizing: border-box;
+    background: #FF0000;
+    width: 280px;
+    height: 72px;
+    border: 1px solid black;
+    z-index: 4;
+    margin-top: -500px;
+    margin-left: 1070px;
+}
+
+.tulisanMap2{
+    font-family: Jockey One;
+    font-size: 40px;
+    color: white;
+    margin-left: 28px;
+    margin-top: 5px;
+}
+
+.borderDescMap2{
+    position: absolute;
+    width: 507px;
+    height: 245px;
+    background: white;
+    margin-left: 60px;
+    margin-top: -130px;
+    background: #FFEFCF;
+}
+
+.descMap2{
+    font-family: Jockey One;
+    font-size: 32px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* Sahara Dessert Maps */
+.bungkusMap3{
+    display: flex;
+    justify-content: center;
+}
+
+.map3{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.gambarMap3{
+    width: 1100px;
+    height: 500px;
+    margin-top: 60px;
+    margin-right: 250px;
+}
+
+.borderMap3{
+    position: absolute;
+    box-sizing: border-box;
+    background: #FF0000;
+    width: 280px;
+    height: 72px;
+    border: 1px solid black;
+    margin-top: -540px;
+    margin-left: -50px;
+}
+
+.tulisanMap3{
+    font-family: Jockey One;
+    font-size: 40px;
+    color: white;
+    margin-left: 1px;
+    margin-top: 5px;
+}
+
+.borderDescMap3{
+    position: absolute;
+    width: 507px;
+    height: 245px;
+    background: white;
+    margin-left: 750px;
+    margin-top: -130px;
+    background: #FFEFCF;
+}
+
+.descMap3{
+    font-family: Jockey One;
+    font-size: 32px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* Snow Blood Maps */
+.bungkusMap4{
+    display: flex;
+    justify-content: center;
+}
+
+.map4{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.gambarMap4{
+    width: 1028px;
+    height: 463px;
+    z-index: 1;
+    margin-top: 60px; 
+    margin-left: 250px; 
+}
+
+.borderMap4{
+    position: absolute;
+    box-sizing: border-box;
+    background: #FF0000;
+    width: 280px;
+    height: 72px;
+    border: 1px solid black;
+    margin-top: -500px;
+    margin-left: 1070px;
+}
+
+.tulisanMap4{
+    font-family: Jockey One;
+    font-size: 40px;
+    color: white;
+    margin-left: 28px;
+    margin-top: 5px;
+}
+
+.borderDescMap4{
+    position: absolute;
+    width: 507px;
+    height: 245px;
+    background: white;
+    margin-left: 60px;
+    margin-top: -130px;
+    background: #FFEFCF;
+}
+
+.descMap4{
+    font-family: Jockey One;
+    font-size: 32px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* Magic Gate Maps */
+.bungkusMap5{
+    display: flex;
+    justify-content: center;
+}
+.map5{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.gambarMap5{
+    width: 1100px;
+    height: 500px;
+    margin-top: 60px;
+    margin-right: 250px;
+}
+.borderMap5{
+    position: absolute;
+    box-sizing: border-box;
+    background: #FF0000;
+    width: 280px;
+    height: 72px;
+    border: 1px solid black;
+    margin-top: -540px;
+    margin-left: -50px;
+}
+.tulisanMap5{
+    font-family: Jockey One;
+    font-size: 40px;
+    color: white;
+    margin-left: 1px;
+    margin-top: 5px;
+}
+.borderDescMap5{
+    position: absolute;
+    width: 507px;
+    height: 245px;
+    background: white;
+    margin-left: 750px;
+    margin-top: -130px;
+    background: #FFEFCF;
+}
+.descMap5{
+    font-family: Jockey One;
+    font-size: 32px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+} 
+/* Dragon Island Maps */
+.bungkusMap6{
+    display: flex;
+    justify-content: center;
+}
+.map6{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.gambarMap6{
+    width: 1028px;
+    height: 463px;
+    margin-top: 60px; 
+    margin-left: 250px; 
+}
+.borderMap6{
+    position: absolute;
+    box-sizing: border-box;
+    background: #FF0000;
+    width: 280px;
+    height: 72px;
+    border: 1px solid black;
+    margin-top: -500px;
+    margin-left: 1070px;
+}
+
+.tulisanMap6{
+    font-family: Jockey One;
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.borderDescMap6{
+    position: absolute;
+    width: 507px;
+    height: 245px;
+    background: white;
+    margin-left: 60px;
+    margin-top: -130px;
+    background: #FFEFCF;
+}
+
+.descMap6{
+    font-family: Jockey One;
+    font-size: 32px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* Dark Forest Maps */
+.bungkusMap7{
+    display: flex;
+    justify-content: center;
+}
+.map7{
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.gambarMap7{
+    width: 1100px;
+    height: 500px;
+    z-index: 1;
+    margin-top: 60px;
+    margin-right: 250px;
+}
+.borderMap7{
+    position: absolute;
+    box-sizing: border-box;
+    background: #FF0000;
+    width: 280px;
+    height: 72px;
+    border: 1px solid black;
+    z-index: 4;
+    margin-top: -540px;
+    margin-left: -50px;
+}
+.tulisanMap7{
+    font-family: Jockey One;
+    font-size: 40px;
+    color: white;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.borderDescMap7{
+    position: absolute;
+    width: 507px;
+    height: 245px;
+    background: white;
+    margin-left: 750px;
+    margin-top: -130px;
+    background: #FFEFCF;
+}
+.descMap7{
+    font-family: Jockey One;
+    font-size: 32px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+@media (max-width: 1400px){
+    /* Frozen House Map */
+    .gambarMap1{
+        margin-right: 30px;
+    }
+    .borderMap1{
+        width: 280px;
+        margin-left: -30px;
+    }
+    .borderDescMap1{
+        width: 480px;
+        height: 245px;
+        margin-left: 690px;
+    }
+    /* Snake Island Map */
+    .gambarMap2{
+        margin-left: 40px; 
+    }
+    .borderMap2{
+        width: 280px;
+        margin-left: 890px;
+    }
+    .borderDescMap2{
+        width: 490px;
+        height: 270px;
+        margin-left: -70px;
+    }
+    /* Sahara Dessert Maps */
+    .gambarMap3{
+        width: 1100px;
+        height: 500px;
+        margin-right: 40px;
+    }
+    .borderMap3{
+        width: 280px;
+        height: 72px;
+        margin-left: -30px;
+    }
+    .borderDescMap3{
+        width: 480px;
+        height: 270px;
+        margin-left: 680px;
+    }
+    /* Snow Blood Maps */
+    .gambarMap4{
+        margin-left: 40px; 
+    }
+    .borderMap4{
+        width: 280px;
+        height: 72px;
+        margin-left: 880px;
+    }
+    .borderDescMap4{
+        width: 500px;
+        height: 245px;
+        margin-left: -60px;
+        margin-top: -130px;
+    }
+/* Magic Gate Maps */
+    .gambarMap5{
+        width: 1100px;
+        height: 500px;
+        margin-right: 40px;
+    }
+
+    .borderMap5{
+        width: 280px;
+        margin-top: -540px;
+        margin-left: -20px;
+    }
+    .borderDescMap5{
+        width: 510px;
+        height: 245px;
+        margin-left: 650px;
+        margin-top: -130px;
+    }
+/* Dragon Island Maps */
+    .gambarMap6{
+        margin-left: 40px; 
+    }
+    .borderMap6{
+        width: 280px;
+        height: 72px;
+        margin-left: 880px;
+    }
+    .borderDescMap6{
+        width: 490px;
+        height: 245px;
+        margin-left: -60px;
+    }
+/* Dark Forest Maps */
+    .gambarMap7{
+        width: 1100px;
+        height: 500px;
+        margin-right: 40px;
+    }
+    .borderMap7{
+        width: 280px;
+        height: 72px;
+        margin-top: -540px;
+        margin-left: -20px;
+    }
+    .borderDescMap7{
+        width: 500px;
+        height: 245px;
+        margin-left: 650px;
+        margin-top: -130px;
+    }
+}
+
+@media (max-width:1300px){
+    .border1And2{
+        margin-right: 180px;
+        margin-left: 180px;
+    }
+    /* Frozen House Map */
+    .gambarMap1{
+        margin-right: 40px;
+    }
+    .borderMap1{
+        width: 280px;
+        margin-left: -20px;
+    }
+    .borderDescMap1{
+        width: 480px;
+        height: 245px;
+        margin-left: 690px;
+    }
+    /* Snake Island Map */
+    .gambarMap2{
+        margin-left: 40px; 
+    }
+    .borderMap2{
+        width: 280px;
+        margin-left: 890px;
+    }
+    .borderDescMap2{
+        width: 490px;
+        height: 270px;
+        margin-left: -70px;
+    }
+    /* Sahara Dessert Maps */
+    .gambarMap3{
+        width: 1100px;
+        height: 500px;
+        margin-right: 40px;
+    }
+    .borderMap3{
+        width: 280px;
+        height: 72px;
+        margin-left: -30px;
+    }
+    .borderDescMap3{
+        width: 480px;
+        height: 270px;
+        margin-left: 680px;
+    }
+    /* Snow Blood Maps */
+    .gambarMap4{
+        margin-left: 40px; 
+    }
+    .borderMap4{
+        width: 280px;
+        height: 72px;
+        margin-left: 880px;
+    }
+    .borderDescMap4{
+        width: 500px;
+        height: 245px;
+        margin-left: -60px;
+        margin-top: -130px;
+    }
+/* Magic Gate Maps */
+    .gambarMap5{
+        width: 1100px;
+        height: 500px;
+        margin-right: 40px;
+    }
+
+    .borderMap5{
+        width: 280px;
+        margin-top: -540px;
+        margin-left: -20px;
+    }
+    .borderDescMap5{
+        width: 510px;
+        height: 245px;
+        margin-left: 650px;
+        margin-top: -130px;
+    }
+/* Dragon Island Maps */
+    .gambarMap6{
+        margin-left: 40px; 
+    }
+    .borderMap6{
+        width: 280px;
+        height: 72px;
+        margin-left: 880px;
+    }
+    .borderDescMap6{
+        width: 490px;
+        height: 245px;
+        margin-left: -60px;
+    }
+/* Dark Forest Maps */
+    .gambarMap7{
+        width: 1100px;
+        height: 500px;
+        margin-right: 40px;
+    }
+    .borderMap7{
+        width: 280px;
+        height: 72px;
+        margin-top: -540px;
+        margin-left: -20px;
+    }
+    .borderDescMap7{
+        width: 500px;
+        height: 245px;
+        margin-left: 650px;
+        margin-top: -130px;
+    }
+}
+
+@media (max-width:1200px){
+    .border1And2{
+        margin-right: 175px;
+        margin-left: 175px;
+    }
+    .border1Map{
+        width: 380px;
+        margin-top: 30px;
+        height: 97px;
+    }
+    .border1Map:hover{
+        width: 380px;
+        margin-top: 30px;
+        height: 97px;
+    }
+    .tulisanBorder1Map{
+        font-size: 28px;
+        margin-top: 25px;
+    }
+
+    .tulisanBorder1Map:hover{
+        font-size: 28px;
+        margin-top: 25px;
+    }
+    .border2Map{
+        width: 380px;
+        height: 97px;
+        margin-top: 30px;
+    }
+    .border2Map:hover{
+        width: 380px;
+        height: 97px;
+        margin-top: 30px;;
+    }
+    .tulisanBorder2Map{
+        font-size: 28px;
+        margin-top: 25px;
+    }
+    .tulisanBorder2Map:hover{
+        font-size: 28px;
+        margin-top: 25px;
+    }
+    .judulBorderAllMaps{
+        height: 76px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .bagianAllMaps{
+        font-size: 55px;
+    }
+
+    /* Frozen House Map */
+    .gambarMap1{
+        width: 900px;
+        height: 490px;
+        margin-top: 60px;
+        margin-right:10px;
+    }
+    .borderMap1{
+        width: 240px;
+        height: 64px;
+        margin-top: -530px;
+        margin-left: -50px;
+    }
+    .tulisanMap1{
+        font-size: 36px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .borderDescMap1{
+        width: 460px;
+        height: 235px;
+        margin-left: 500px;
+        margin-top: -130px;
+    }
+    .descMap1{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    /* Snake Island Map */
+    .gambarMap2{
+        width: 900px;
+        height: 490px;
+        margin-top: 60px; 
+        margin-left: 10px; 
+    }
+    .borderMap2{
+        width: 240px;
+        height: 64px;
+        margin-top: -540px;
+        margin-left: 720px;
+    }
+    .tulisanMap2{
+        font-size: 36px;
+        margin-left: 28px;
+        margin-top: 5px;
+    }
+    .borderDescMap2{
+        width: 460px;
+        height: 250px;
+        margin-left: -50px;
+        margin-top: -130px;
+    }
+    .descMap2{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    /* Sahara Dessert Maps */
+    .gambarMap3{
+        width: 900px;
+        height: 490px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+    .borderMap3{
+        width: 240px;
+        height: 64px;
+        margin-top: -540px;
+        margin-left: -50px;
+    }
+    .tulisanMap3{
+        font-size: 36px;
+        margin-left: 1px;
+        margin-top: 5px;
+    }
+    .borderDescMap3{
+        width:460px;
+        height: 250px;
+        margin-left: 500px;
+        margin-top: -130px;
+    }
+    .descMap3{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    /* Snow Blood Maps */
+    .gambarMap4{
+        width: 900px;
+        height: 490px;
+        margin-top: 60px; 
+        margin-left: 10px; 
+    }
+    .borderMap4{
+        width: 240px;
+        height: 64px;
+        margin-top: -500px;
+        margin-left: 720px;
+    }
+    .tulisanMap4{
+        font-size: 36px;
+        margin-left: 28px;
+        margin-top: 5px;
+    }
+    .borderDescMap4{
+        width: 470px;
+        height: 265px;
+        margin-left: -50px;
+        margin-top: -130px;
+    }
+    .descMap4{
+        color: black;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    /* Magic Gate Maps */
+    .gambarMap5{
+        width: 900px;
+        height: 490px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+    .borderMap5{
+        width: 240px;
+        height: 64px;
+        margin-top: -540px;
+        margin-left: -50px;
+    }
+    .tulisanMap5{
+        font-size: 36px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    
+    .borderDescMap5{
+        width: 480px;
+        height: 250px;
+        margin-left: 480px;
+        margin-top: -130px;
+    }
+    .descMap5{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 5px;
+    } 
+    /* Dragon Island Maps */
+    .gambarMap6{
+        width: 900px;
+        height: 490px;
+        margin-top: 60px; 
+        margin-left: -10px; 
+    }
+    .borderMap6{
+        width: 240px;
+        height: 64px;
+        margin-top: -530px;
+        margin-left: 710px;
+    }
+    .tulisanMap6{
+        font-size: 36px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .borderDescMap6{
+        width: 475px;
+        height: 250px;
+        margin-left: -50px;
+        margin-top: -130px;
+        background: #FFEFCF;
+    }
+    .descMap6{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    /* Dark Forest Maps */
+    .gambarMap7{
+        width:900px;
+        height: 490px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+
+    .borderMap7{
+        width: 240px;
+        height: 64px;
+        margin-top: -540px;
+        margin-left: -50px;
+    }
+    .tulisanMap7{
+        font-size: 36px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .borderDescMap7{
+        width: 470px;
+        height: 235px;
+        margin-left: 490px;
+        margin-top: -130px;
+    }
+    .descMap7{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 1000px){
+.border1And2{
+    margin-right: 75px;
+    margin-left: 75px;
+}
+.border1Map{
+    width: 340px;
+    margin-top: 30px;
+    height: 83px;
+}
+
+.border1Map:hover{
+    width: 340px;
+    margin-top: 30px;
+    height: 83px;
+}
+
+.tulisanBorder1Map{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.tulisanBorder1Map:hover{
+    font-size: 23px;
+    margin-top: 25px;
+}
+
+.border2Map{
+    width: 340px;
+    height: 83px;
+    margin-top: 30px;
+}
+
+.border2Map:hover{
+    width: 340px;
+    height: 83px;
+    margin-top: 30px;
+}
+
+
+.tulisanBorder2Map{
+    font-size: 25px;
+    margin-top: 25px;
+    color: black;
+}
+
+.tulisanBorder2Map:hover{
+    font-size: 23px;
+    margin-top: 25px;
+    color: black;
+}
+
+.judulBorderAllMaps{
+    width: 100vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+.bagianAllMaps{
+    font-size: 50px;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+/* Frozen House Map */
+    .gambarMap1{
+        width: 780px;
+        height: 440px;
+        margin-top: 60px;
+        margin-right:10px;
+    }
+    .borderMap1{
+        width: 210px;
+        height: 44px;
+        margin-top: -475px;
+        margin-left: -20px;
+    }
+    .tulisanMap1{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .borderDescMap1{
+        width: 400px;
+        height: 215px;
+        margin-left: 400px;
+        margin-top: -130px;
+    }
+    .descMap1{
+        font-size: 26px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+/* Snake Island Map */
+    .gambarMap2{
+        width: 780px;
+        height: 440px;
+        margin-top: 60px; 
+        margin-left: 10px; 
+    }
+
+    .borderMap2{
+        width: 210px;
+        height: 44px;
+        margin-top: -480px;
+        margin-left: 595px;
+    }
+
+    .tulisanMap2{
+        font-size: 30px;
+        margin-left: 28px;
+        margin-top: 5px;
+    }
+
+    .borderDescMap2{
+        width: 400px;
+        height: 215px;
+        margin-left: -15px;
+        margin-top: -130px;
+    }
+
+    .descMap2{
+        font-size: 26px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+/* Sahara Dessert Maps */
+    .gambarMap3{
+        width: 780px;
+        height: 440px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+
+    .borderMap3{
+        width: 210px;
+        height: 44px;
+        margin-top: -480px;
+        margin-left: -15px;
+    }
+
+    .tulisanMap3{
+        font-size: 30px;
+        margin-left: 1px;
+        margin-top: 5px;
+    }
+
+    .borderDescMap3{
+        width:400px;
+        height: 215px;
+        margin-left: 400px;
+        margin-top: -130px;
+    }
+    .descMap3{
+        font-size: 26px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+/* Snow Blood Maps */
+    .gambarMap4{
+        width: 780px;
+        height: 440px;
+        margin-top: 60px; 
+        margin-left: 10px; 
+    }
+
+    .borderMap4{
+        width: 210px;
+        height: 44px;
+        margin-top: -480px;
+        margin-left: 590px;
+    }
+
+    .tulisanMap4{
+        font-size: 30px;
+        margin-left: 28px;
+        margin-top: 5px;
+    }
+
+    .borderDescMap4{
+        width: 410px;
+        height: 215px;
+        margin-left: -15px;
+        margin-top: -130px;
+    }
+
+    .descMap4{
+        font-size:26px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+/* Magic Gate Maps */
+    .gambarMap5{
+        width: 780px;
+        height: 440px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+
+    .borderMap5{
+        width: 210px;
+        height: 44px;
+        margin-top: -470px;
+        margin-left: -15px;
+    }
+    
+    .tulisanMap5{
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    
+    .borderDescMap5{
+        width: 410px;
+        height: 215px;
+        margin-left: 390px;
+        margin-top: -130px;
+    }
+
+    .descMap5{
+        font-size: 26px;
+        margin-left: 10px;
+        margin-top: 5px;
+    } 
+
+/* Dragon Island Maps */
+    .gambarMap6{
+        width: 780px;
+        height: 440px;
+        margin-top: 60px; 
+        margin-left: -10px; 
+    }
+
+    .borderMap6{
+        width: 210px;
+        height: 44px;
+        z-index: 4;
+        margin-top: -480px;
+        margin-left: 580px;
+    }
+
+    .tulisanMap6{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .borderDescMap6{
+        width: 400px;
+        height: 215px;
+        margin-left: -20px;
+        margin-top: -130px;
+    }
+
+    .descMap6{
+        font-size: 26px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+/* Dark Forest Maps */
+    .gambarMap7{
+        width:780px;
+        height: 440px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+
+    .borderMap7{
+        width: 210px;
+        height: 44px;
+        margin-top: -470px;
+        margin-left: -15px;
+    }
+
+    .tulisanMap7{
+        font-size: 30px;
+        margin-left: 25px;
+        margin-top: 5px;
+    }
+    .borderDescMap7{
+        width: 410px;
+        height: 215px;
+        margin-left: 390px;
+        margin-top: -130px;
+    }
+    .descMap7{
+        font-size: 26px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:800px){
+    .border1And2{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .border1Map{
+        width: 300px;
+        margin-top: 30px;
+        height: 70px;
+    }
+    .border1Map:hover{
+        width: 300px;
+        margin-top: 30px;
+        height: 70px;
+    }
+    .tulisanBorder1Map{
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .tulisanBorder1Map:hover{
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .border2Map{
+        width: 300px;
+        height: 70px;
+        margin-top: 30px;
+    }
+    .border2Map:hover{
+        width: 300px;
+        height: 70px;
+        margin-top: 30px;
+    }
+    .tulisanBorder2Map{
+        font-size: 21px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .tulisanBorder2Map:hover{
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .judulBorderAllMaps{
+        height: 72px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .bagianAllMaps{
+        font-size: 43px;
+        margin-top: 35px;
+        margin-left: 40px;
+    }
+/* Frozen House Map */
+    .gambarMap1{
+        width: 670px;
+        height: 380px;
+        margin-top: 60px;
+        margin-right:10px;
+    }
+    .borderMap1{
+        width: 190px;
+        height: 35px;
+        margin-top: -410px;
+        margin-left: -10px;
+    }
+    .tulisanMap1{
+        font-size: 28px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+    .borderDescMap1{
+        width: 310px;
+        height: 160px;
+        margin-left: 375px;
+        margin-top: -130px;
+    }
+    .descMap1{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+/* Snake Island Map */
+    .gambarMap2{
+        width: 670px;
+        height: 380px;
+        margin-top: 60px; 
+        margin-left: 10px; 
+    }
+    .borderMap2{
+        width: 190px;
+        height: 35px;
+        margin-top: -410px;
+        margin-left: 500px;
+    }
+    .tulisanMap2{
+        font-size: 28px;
+        margin-left: 28px;
+        margin-top: -5px;
+    }
+    .borderDescMap2{
+        width: 310px;
+        height: 160px;
+        margin-left: -10px;
+        margin-top: -130px;
+    }
+    .descMap2{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+/* Sahara Dessert Maps */
+    .gambarMap3{
+        width: 670px;
+        height: 380px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+
+    .borderMap3{
+        width: 190px;
+        height: 35px;
+        margin-top: -410px;
+        margin-left: -10px;
+    }
+
+    .tulisanMap3{
+        font-size: 28px;
+        margin-left: 5px;
+        margin-top: -5px;
+    }
+
+    .borderDescMap3{
+        width:310px;
+        height: 160px;
+        margin-left: 375px;
+        margin-top: -130px;
+    }
+    .descMap3{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+/* Snow Blood Maps */
+    .gambarMap4{
+        width: 670px;
+        height: 380px;
+        margin-top: 60px; 
+        margin-left: 10px; 
+    }
+    .borderMap4{
+        width: 190px;
+        height: 35px;
+        margin-top: -410px;
+        margin-left: 500px;
+    }
+    .tulisanMap4{
+        font-size: 28px;
+        margin-left: 28px;
+        margin-top: -5px;
+    }
+    .borderDescMap4{
+        width: 320px;
+        height: 160px;
+        margin-left: -10px;
+        margin-top: -130px;
+    }
+    .descMap4{
+        font-size:20px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+/* Magic Gate Maps */
+    .gambarMap5{
+        width: 670px;
+        height: 380px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+    .borderMap5{
+        width: 190px;
+        height: 35px;
+        margin-top: -410px;
+        margin-left: -10px;
+    }
+    .tulisanMap5{
+        font-size: 28px;
+        margin-left: 30px;
+        margin-top: -5px;
+    }
+    
+    .borderDescMap5{
+        width: 320px;
+        height: 160px;
+        margin-left: 370px;
+        margin-top: -130px;
+    }
+
+    .descMap5{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 5px;
+    } 
+
+/* Dragon Island Maps */
+    .gambarMap6{
+        width: 670px;
+        height: 380px;
+        margin-top: 60px; 
+        margin-left: -10px; 
+    }
+    .borderMap6{
+        width: 190px;
+        height: 38px;
+        margin-top: -410px;
+        margin-left: 490px;
+    }
+    .tulisanMap6{
+        font-size:28px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+    .borderDescMap6{
+        width: 310px;
+        height: 160px;        
+        margin-left: -15px;
+        margin-top: -130px;
+    }
+    .descMap6{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+/* Dark Forest Maps */
+    .gambarMap7{
+        width:670px;
+        height: 380px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+    .borderMap7{
+        width: 190px;
+        height: 38px;
+        margin-top: -410px;
+        margin-left: -10px;
+    }
+    .tulisanMap7{
+        font-size: 28px;
+        margin-left: 25px;
+        margin-top: -5px;
+    }
+    .borderDescMap7{
+        width: 320px;
+        height: 160px;
+        margin-left: 370px;
+        margin-top: -130px;
+    }
+    .descMap7{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:700px){
+        /* menu maps */
+    .border1And2{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .border1Map{
+        width: 250px;
+        margin-top: 30px;
+        height: 60px;
+    }
+    .border1Map:hover{
+        width: 250px;
+        margin-top: 30px;
+        height: 60px;
+    }
+    .tulisanBorder1Map{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .tulisanBorder1Map:hover{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .border2Map{
+        width: 250px;
+        height: 60px;
+        margin-top: 30px;
+    }
+    .border2Map:hover{
+        width: 250px;
+        height: 60px;
+        margin-top: 30px;
+    }
+    .tulisanBorder2Map{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .tulisanBorder2Map:hover{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .judulBorderAllMaps{
+        height: 72px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .bagianAllMaps{
+        font-size: 38px;
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+
+    /* Frozen House Map */
+    .gambarMap1{
+        width: 570px;
+        height: 300px;
+        margin-top: 60px;
+        margin-right:10px;
+    }
+    .borderMap1{
+        width: 175px;
+        height: 30px;
+        margin-top: -330px;
+        margin-left: -10px;
+    }
+    .tulisanMap1{
+        font-size: 26px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+    .borderDescMap1{
+        width: 280px;
+        height: 145px;
+        margin-left: 310px;
+        margin-top: -130px;
+    }
+    .descMap1{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+/* Snake Island Map */
+    .gambarMap2{
+        width: 570px;
+        height: 300px;
+        margin-top: 60px; 
+        margin-left: 10px; 
+    }
+
+    .borderMap2{
+        width: 175px;
+        height: 30px;
+        margin-top: -330px;
+        margin-left: 420px;
+    }
+
+    .tulisanMap2{
+        font-size: 26px;
+        margin-left: 28px;
+        margin-top: -5px;
+    }
+
+    .borderDescMap2{
+        width: 280px;
+        height: 145px;
+        margin-left: -10px;
+        margin-top: -130px;
+    }
+
+    .descMap2{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+/* Sahara Dessert Maps */
+    .gambarMap3{
+        width: 570px;
+        height: 300px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+    .borderMap3{
+        width: 175px;
+        height: 30px;
+        margin-top: -330px;
+        margin-left: -10px;
+    }
+    .tulisanMap3{
+        font-size: 26px;
+        margin-left: 5px;
+        margin-top: -5px;
+    }
+    .borderDescMap3{
+        width:280px;
+        height:145px;
+        margin-left: 310px;
+        margin-top: -130px;
+    }
+    .descMap3{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+/* Snow Blood Maps */
+    .gambarMap4{
+        width: 570px;
+        height: 300px;
+        margin-top: 60px; 
+        margin-left: 10px; 
+    }
+    .borderMap4{
+        width: 175px;
+        height: 30px;
+        margin-top: -330px;
+        margin-left: 420px;
+    }
+    .tulisanMap4{
+        font-size: 26px;
+        margin-left: 28px;
+        margin-top: -5px;
+    }
+    .borderDescMap4{
+        width: 290px;
+        height: 145px;
+        margin-left: -10px;
+        margin-top: -130px;
+    }
+    .descMap4{
+        font-size:18px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+/* Magic Gate Maps */
+    .gambarMap5{
+        width: 570px;
+        height: 300px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+
+    .borderMap5{
+        width: 175px;
+        height: 30px;
+        margin-top: -330px;
+        margin-left: -10px;
+    }
+    
+    .tulisanMap5{
+        font-size: 26px;
+        margin-left: 30px;
+        margin-top: -5px;
+    }
+    
+    .borderDescMap5{
+        width: 290px;
+        height: 145px;
+        margin-left: 300px;
+        margin-top: -130px;
+    }
+
+    .descMap5{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 5px;
+    } 
+
+/* Dragon Island Maps */
+    .gambarMap6{
+        width: 570px;
+        height: 300px;
+        margin-top: 60px; 
+        margin-left: -10px; 
+    }
+    .borderMap6{
+        width: 175px;
+        height: 30px;
+        margin-top: -330px;
+        margin-left: 410px;
+    }
+    .tulisanMap6{
+        font-size:26px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+    .borderDescMap6{
+        width: 280px;
+        height: 145px;
+        margin-left: -15px;
+        margin-top: -130px;
+    }
+    .descMap6{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+/* Dark Forest Maps */
+    .gambarMap7{
+        width:570px;
+        height: 300px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+    .borderMap7{
+        width: 175px;
+        height: 30px;
+        margin-top: -330px;
+        margin-left: -10px;
+    }
+    .tulisanMap7{
+        font-size: 26px;
+        margin-left: 25px;
+        margin-top: -5px;
+    }
+    .borderDescMap7{
+        width: 290px;
+        height: 145px;
+        margin-left: 300px;
+        margin-top: -130px;
+    }
+    .descMap7{
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:600px){
+        /* menu maps */
+    .border1And2{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .border1Map{
+        width: 200px;
+        margin-top: 30px;
+        height: 50px;
+    }
+    .border1Map:hover{
+        width: 200px;
+        margin-top: 30px;
+        height: 50px;
+    }
+    .tulisanBorder1Map{
+        font-family: Jockey One;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .tulisanBorder1Map:hover{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .border2Map{
+        width: 200px;
+        height: 50px;
+        margin-top: 30px;
+    }
+    .border2Map:hover{
+        width: 200px;
+        height: 50px;
+        margin-top: 30px;
+    }
+    .tulisanBorder2Map{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .tulisanBorder2Map:hover{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .judulBorderAllMaps{
+        height: 72px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .bagianAllMaps{
+        font-size: 35px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    /* Frozen House Map */
+    .gambarMap1{
+        width: 460px;
+        height: 260px;
+        margin-top: 40px;
+        margin-right:10px;
+    }
+    .borderMap1{
+        width: 150px;
+        height: 25px;
+        margin-top: -280px;
+        margin-left: -10px;
+    }
+    .tulisanMap1{
+        font-size: 23px;
+        margin-left: 5px;
+        margin-top: -5px;
+    }
+    .borderDescMap1{
+        width: 230px;
+        height: 120px;
+        margin-left: 245px;
+        margin-top: -100px;
+    }
+    .descMap1{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    /* Snake Island Map */
+    .gambarMap2{
+        width: 460px;
+        height: 260px;
+        margin-top: 40px; 
+        margin-left: 10px; 
+    }
+    .borderMap2{
+        width: 150px;
+        height: 25px;
+        margin-top: -280px;
+        margin-left: 330px;
+    }
+    .tulisanMap2{
+        font-size: 23px;
+        margin-left: 28px;
+        margin-top: -5px;
+    }
+    .borderDescMap2{
+        width: 230px;
+        height: 130px;
+        margin-left: -10px;
+        margin-top: -100px;
+    }
+    .descMap2{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    /* Sahara Dessert Maps */
+    .gambarMap3{
+        width: 460px;
+        height: 260px;
+        margin-top: 40px;
+        margin-right: 10px;
+    }
+    .borderMap3{
+        width: 150px;
+        height: 25px;
+        margin-top: -280px;
+        margin-left: -10px;
+    }
+    .tulisanMap3{
+        font-size: 23px;
+        margin-left: 5px;
+        margin-top: -5px;
+    }
+    .borderDescMap3{
+        width:230px;
+        height:130px;
+        margin-left: 245px;
+        margin-top: -100px;
+    }
+    .descMap3{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    /* Snow Blood Maps */
+    .gambarMap4{
+        width: 460px;
+        height: 260px;
+        margin-top: 40px; 
+        margin-left: 10px; 
+    }
+
+    .borderMap4{
+        width: 150px;
+        height: 25px;
+        margin-top: -280px;
+        margin-left: 330px;
+    }
+
+    .tulisanMap4{
+        font-size: 23px;
+        margin-left: 5px;
+        margin-top: -5px;
+    }
+
+    .borderDescMap4{
+        width: 240px;
+        height: 120px;
+        margin-left: -10px;
+        margin-top: -100px;
+    }
+
+    .descMap4{
+        font-size:15px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    /* Magic Gate Maps */
+    .gambarMap5{
+        width: 460px;
+        height: 260px;
+        margin-top: 40px;
+        margin-right: 10px;
+    }
+
+    .borderMap5{
+        width: 150px;
+        height: 25px;
+        margin-top: -280px;
+        margin-left: -10px;
+    }
+
+    .tulisanMap5{
+        font-size: 23px;
+        color: white;
+        margin-left: 30px;
+        margin-top: -5px;
+    }
+
+    .borderDescMap5{
+        width: 240px;
+        height: 120px;
+        margin-left: 240px;
+        margin-top: -100px;
+    }
+
+    .descMap5{
+        font-size: 14.5px;
+        margin-left: 10px;
+        margin-top: 5px;
+    } 
+
+    /* Dragon Island Maps */
+    .gambarMap6{
+        width: 460px;
+        height: 260px;
+        margin-top: 40px; 
+        margin-left: -10px; 
+    }
+    .borderMap6{
+        width: 150px;
+        height: 25px;
+        margin-top: -280px;
+        margin-left: 320px;
+    }
+    .tulisanMap6{
+        font-size:23px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+    .borderDescMap6{
+        width: 230px;
+        height: 120px;
+        margin-left: -10px;
+        margin-top: -100px;
+    }
+    .descMap6{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    /* Dark Forest Maps */
+    .gambarMap7{
+        width:460px;
+        height: 260px;
+        margin-top: 40px;
+        margin-right: 10px;
+    }
+    .borderMap7{
+        width: 150px;
+        height: 25px;
+        margin-top: -280px;
+        margin-left: -10px;
+    }
+    .tulisanMap7{
+        font-size: 23px;
+        margin-left: 25px;
+        margin-top: -5px;
+    }
+    .borderDescMap7{
+        width: 240px;
+        height: 120px;
+        margin-left: 240px;
+        margin-top: -100px;
+    }
+    .descMap7{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:500px){
+        /* menu maps */
+    .border1And2{
+        margin-right: 40px;
+        margin-left: 10px;
+    }
+    .border1Map{
+        width: 145px;
+        margin-top: 30px;
+        height: 32px;
+    }
+    .border1Map:hover{
+        width: 145px;
+        margin-top: 30px;
+        height: 32px;
+    }
+    .tulisanBorder1Map{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .tulisanBorder1Map:hover{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .border2Map{
+        width: 145px;
+        height: 32px;
+        margin-top: 30px;
+    }
+    .border2Map:hover{
+        width: 145px;
+        height: 32px;
+        margin-top: 30px;
+    }
+    .tulisanBorder2Map{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .tulisanBorder2Map:hover{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .judulBorderAllMaps{
+        height: 72px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .bagianAllMaps{
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    /* Frozen House Map */
+    .gambarMap1{
+        width: 310px;
+        height: 150px;
+        margin-top: 40px;
+        margin-right:40px;
+    }
+
+    .borderMap1{
+        width: 120px;
+        height: 17px;
+        margin-top: -165px;
+        margin-left: -20px;
+    }
+
+    .tulisanMap1{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: -3px;
+    }
+
+    .borderDescMap1{
+        width: 175px;
+        height: 93px;
+        margin-left: 150px;
+        margin-top: -80px;
+    }
+
+    .descMap1{
+        font-size: 11.5px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    /* Snake Island Map */
+    .gambarMap2{
+        width: 310px;
+        height: 150px;
+        margin-top: -100px; 
+        margin-left: -10px; 
+    }
+    .borderMap2{
+        width: 120px;
+        height: 17px;
+        margin-top: -170px;
+        margin-left: 185px;
+    }
+    .tulisanMap2{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: -5px;
+    }
+    .borderDescMap2{
+        width: 180px;
+        height: 93px;
+        margin-left: -30px;
+        margin-top: -80px;
+    }
+    .descMap2{
+        font-size: 11.5px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    /* Sahara Dessert Maps */
+    .gambarMap3{
+        width: 310px;
+        height: 150px;
+        margin-top: -100px;
+        margin-right: 40px;
+    }
+    .borderMap3{
+        width: 120px;
+        height: 17px;
+        margin-top: -165px;
+        margin-left: -20px;
+    }
+    .tulisanMap3{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: -3px;
+    }
+    .borderDescMap3{
+        width:175px;
+        height:93px;
+        margin-left: 150px;
+        margin-top: -80px;
+    }
+    .descMap3{
+        font-size: 11px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    /* Snow Blood Maps */
+    .gambarMap4{
+        width: 310px;
+        height: 150px;
+        margin-top: -100px; 
+        margin-left: -10px; 
+    }
+    .borderMap4{
+        width: 120px;
+        height: 17px;
+        margin-top: -170px;
+        margin-left: 185px;
+    }
+    .tulisanMap4{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: -5px;
+    }
+    .borderDescMap4{
+        width: 180px;
+        height: 93px;
+        margin-left: -30px;
+        margin-top: -80px;
+    }
+
+    .descMap4{
+        font-size:11px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    /* Magic Gate Maps */
+    .gambarMap5{
+        width: 310px;
+        height: 150px;
+        margin-top: -100px;
+        margin-right: 40px;
+    }
+    .borderMap5{
+        width: 120px;
+        height: 17px;
+        margin-top: -165px;
+        margin-left: -20px;
+    }
+    .tulisanMap5{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: -3px;
+    }
+    .borderDescMap5{
+        width: 180px;
+        height: 93px;
+        margin-left: 150px;
+        margin-top: -80px;
+    }
+    .descMap5{
+        font-size: 11px;
+        margin-left: 10px;
+        margin-top: 5px;
+    } 
+    /* Dragon Island Maps */
+    .gambarMap6{
+        width: 310px;
+        height: 150px;
+        margin-top: -100px; 
+        margin-left: -10px; 
+    }
+    .borderMap6{
+        width: 120px;
+        height: 17px;
+        margin-top: -170px;
+        margin-left: 185px;
+    }
+    .tulisanMap6{
+        font-size:15px;
+        margin-left: 20px;
+        margin-top: -5px;
+    }
+    .borderDescMap6{
+        width: 175px;
+        height: 93px;
+        margin-left: -30px;
+        margin-top: -80px;
+    }
+    .descMap6{
+        font-size: 11px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    /* Dark Forest Maps */
+    .gambarMap7{
+        width:310px;
+        height: 150px;
+        margin-top: -100px;
+        margin-right: 40px;
+    }
+    .borderMap7{
+        width: 120px;
+        height: 17px;
+        margin-top: -165px;
+        margin-left: -20px;
+    }
+    .tulisanMap7{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: -3px;
+    }
+    .borderDescMap7{
+        width: 180px;
+        height: 93px;
+        margin-left: 150px;
+        margin-top: -80px;
+    }
+
+    .descMap7{
+        font-size: 11px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }  
+}
+@media (max-width:400px){
+    /* menu maps */
+    .border1And2{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .border1Map{
+        width: 130px;
+        margin-top: 30px;
+        height: 25px;
+    }
+    .border1Map:hover{
+        width: 130px;
+        margin-top: 30px;
+        height: 25px;
+    }
+
+    .tulisanBorder1Map{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .tulisanBorder1Map:hover{
+        font-size: 11px;
+        margin-top: 5px;
+    }
+    .border2Map{
+        width: 130px;
+        height: 25px;
+        margin-top: 30px;
+    }
+    .border2Map:hover{
+        width: 130px;
+        height: 25px;
+        margin-top: 30px;
+    }
+    .tulisanBorder2Map{
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .tulisanBorder2Map:hover{
+        font-size: 11px;
+        margin-top: 5px;
+    }
+    .bagianAllMaps{
+        font-size: 35px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    /* Frozen House Map */
+    .gambarMap1{
+        width: 300px;
+        height: 145px;
+        margin-top: 40px;
+        margin-right:10px;
+    }
+    .borderMap1{
+        width: 115px;
+        height: 15px;
+        margin-top: -160px;
+        margin-left: -15px;
+    }
+    .tulisanMap1{
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+    .borderDescMap1{
+        width: 170px;
+        height: 90px;
+        margin-left: 150px;
+        margin-top: -60px;
+    }
+    .descMap1{
+        font-size: 11px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    /* Snake Island Map */
+    .gambarMap2{
+        width: 300px;
+        height: 145px;
+        margin-top: -100px; 
+        margin-left: 10px; 
+    }
+    .borderMap2{
+        width: 115px;
+        height: 15px;
+        margin-top: -160px;
+        margin-left: 200px;
+    }
+    .tulisanMap2{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: -5px;
+    }
+    .borderDescMap2{
+        width: 175px;
+        height: 90px;
+        margin-left: -15px;
+        margin-top: -60px;
+    }
+    .descMap2{
+        font-size: 11px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    /* Sahara Dessert Maps */
+    .gambarMap3{
+        width: 300px;
+        height: 145px;
+        margin-top: -100px;
+        margin-right: 15px;
+    }
+    .borderMap3{
+        width: 115px;
+        height: 15px;
+        margin-top: -160px;
+        margin-left: -15px;
+    }
+    .tulisanMap3{
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+    .borderDescMap3{
+        width:170px;
+        height:90px;
+        margin-left: 150px;
+        margin-top: -60px;
+    }
+    .descMap3{
+        font-size: 11px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    /* Snow Blood Maps */
+    .gambarMap4{
+        width: 300px;
+        height: 145px;
+        margin-top: -100px; 
+        margin-left: 10px; 
+    }
+
+    .borderMap4{
+        width: 115px;
+        height: 15px;
+        margin-top: -160px;
+        margin-left: 200px;
+    }
+    .tulisanMap4{
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: -5px;
+    }
+    .borderDescMap4{
+        width: 180px;
+        height: 90px;
+        margin-left: -15px;
+        margin-top: -60px;
+    }
+    .descMap4{
+        font-size:11px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    /* Magic Gate Maps */
+    .gambarMap5{
+        width: 300px;
+        height: 145px;
+        margin-top: -100px;
+        margin-right: 10px;
+    }
+
+    .borderMap5{
+        width: 115px;
+        height: 15px;
+        margin-top: -160px;
+        margin-left: -15px;
+    } 
+    .tulisanMap5{
+        font-size: 14px;
+        margin-left: 30px;
+        margin-top: -5px;
+    }
+    .borderDescMap5{
+        width: 180px;
+        height: 90px;
+        margin-left: 140px;
+        margin-top: -60px;
+    }
+    .descMap5{
+        font-size: 11px;
+        margin-left: 10px;
+        margin-top: 5px;
+    } 
+    /* Dragon Island Maps */
+    .gambarMap6{
+        width: 300px;
+        height: 145px;
+        margin-top: -100px; 
+        margin-left: -10px; 
+    }
+    .borderMap6{
+        width: 115px;
+        height: 15px;
+        margin-top: -160px;
+        margin-left: 190px;
+    }
+    .tulisanMap6{
+        font-size:14px;
+        margin-left: 20px;
+        margin-top: -5px;
+    }
+    .borderDescMap6{
+        width: 175px;
+        height: 90px;
+        margin-left: -30px;
+        margin-top: -60px;
+    }
+    .descMap6{
+        font-size: 11px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    /* Dark Forest Maps */
+    .gambarMap7{
+        width:300px;
+        height: 145px;
+        margin-top: -100px;
+        margin-right: 10px;
+    }
+    .borderMap7{
+        width: 115px;
+        height: 15px;
+        margin-top: -160px;
+        margin-left: -15px;
+    }
+    .tulisanMap7{
+        font-size: 14px;
+        margin-left: 15px;
+        margin-top: -5px;
+    }
+    .borderDescMap7{
+        width: 180px;
+        height: 90px;
+        margin-left: 140px;
+        margin-top: -60px;
+    }
+    .descMap7{
+        font-size: 11px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+}
+
+/* Arena Maps */
+.bagianArenaMaps{
+    font-family: Jockey One;
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+@media(max-width: 500px){
+    .bagianArenaMaps{
+        font-size: 50px;
+        margin-left: -5px;
+    }
+}
+
+.judulBorderArenaMaps{
+    justify-content: center;
+    width: 100vw;
+    height: 83px;
+    background: #FFD076;
+}
+
+/* BattleRoyale Maps */
+.judulBorderBattleRoyaleMaps{
+    justify-content: center;
+    width: 100vw;
+    height: 83px;
+    background: #FFD076;
+}
+
+.bagianBattleRoyaleMaps{
+    font-family: Jockey One;
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+@media(max-width: 500px){
+    .bagianBattleRoyaleMaps{
+        font-size: 50px;
+        margin-left: -10px;
+    }
+}
+
+/* Menu about us */
+
+.image{
+    text-align:center;
+    position:relative;
+    color:#ffffff;
+}
+.image img{
+    width:100vw;
+    height:40vw;
+    position:relative;
+    padding:0px 0px 0px 0px;
+}
+.adex{
+    width:35vw;
+    height:6vw;
+    position:absolute;
+    top:70%;
+    left:35%;
+    text-align:center;
+    font-size:22px;
+    font-family:Jockey One;
+}
+.desc{
+    width:68vw;
+    height:5vw;
+    position:absolute;
+    left:20%;
+    bottom:5%;
+    text-align:center;
+    font-size:18px;
+    font-family:Jockey One;
+}
+.snake{
+    text-align:center;
+    position:relative;
+}
+.snake img{
+    width:80vw;
+    height:40vw;
+    margin-top: 150px;
+}
+.side{
+    position:absolute;
+    width:25vw;
+    height:5vw;
+    background-color:#ff0000;
+    font-size:48px;
+    right:10%;
+    bottom:5%;
+    color:#ffffff;
+    font-family:Jockey One;
+}
+.side:hover{
+    position:absolute;
+    width:25vw;
+    height:5vw;
+    background-color:#F25437;
+    font-size:48px;
+    right:10%;
+    bottom:5%;
+    color:#ffffff;
+    font-family:Jockey One;
+}
+.side p{
+    padding-left: 3px;
+}
+.box{
+    text-align:center;
+    position:absolute;
+    width:80vw;
+    height:8.5vw;
+    background-color: #F25437;
+    left:9.25%;
+    font-size:48px;
+    color:#000000;
+    font-family:Jockey One;
+    margin-left: 10px;
+}
+.box p{
+    width:78vw;
+    height:6vw;
+}
+.meet{
+    text-align:center;
+    position:relative;
+    margin-top: 100px;
+}
+.meet img{
+    width:80vw;
+    height:40vw;
+    margin-top: 140px;
+}
+.side1{
+    position:absolute;
+    width:25vw;
+    height:5vw;
+    background-color:#ff0000;
+    font-size:48px;
+    right:10%;
+    bottom:5%;
+    color:#ffffff;
+    font-family:Jockey One;
+    margin-left: 10px;
+}
+.side1:hover{
+    position:absolute;
+    width:25vw;
+    height:5vw;
+    background-color: #F25437;
+    font-size:48px;
+    right:10%;
+    bottom:5%;
+    color:#ffffff;
+    font-family:Jockey One;
+}
+.side1 p{
+    width:23vw;
+    height:3vw;
+    padding:10px;
+}
+.box1{
+    text-align:center;
+    position:absolute;
+    width:80vw;
+    height:8.5vw;
+    background-color:#ffffff;
+    margin-left: 145px;
+    font-size:48px;
+    color:#000000;
+    font-family:Jockey One;
+    margin-left: 150px;
+}
+.box1 p{
+    position:relative;
+    width:70vw;
+    height:6vw;
+    margin: auto;
+}
+
+/* about us explore map */
+.back{
+    text-align:center;
+    position:relative;
+    color:#ffffff;
+}
+
+.arena{
+    width:70vw;
+    height:12vw;
+    position:relative;
+    margin-top: 40px;
+    text-align:center;
+}
+
+.arena p{
+    font-family: Jockey One;
+    width:60vw;
+    height:10vw;
+    position:absolute;
+    font-size:55px;
+    background-color:#ffffff;
+    color:#000000;
+    padding:10px;
+    left:27%;
+}
+
+.mode{
+    width:90vw;
+    height:15vw;
+    position:relative;
+    padding-top:40px;
+}
+
+.mode p{
+    font-family: Jockey One;
+    width:80vw;
+    height:13vw;
+    position:absolute;
+    font-size:30.5px;
+    background-color:#f25437;
+    left:10%;
+    text-align:center;
+    padding:10px;
+}
+
+.view{
+    width:30vw;
+    height:25vw;
+    position:relative;
+    width:90%;
+}
+
+.view p{
+    font-family: Jockey One;
+    width:30vw;
+    height:5vw;
+    position:absolute;
+    background-color:#ff0000;
+    color: white;
+    left:80%;
+    top:50%;
+    font-size:29px;
+    text-align:center;
+}
+
+.view p:hover{
+    font-family: Jockey One;
+    width:30vw;
+    height:5vw;
+    position:absolute;
+    background-color:#F25437;
+    color: white;
+    left:80%;
+    top:50%;
+    font-size:29px;
+    text-align:center;
+}
+
+.battle{
+    text-align:center;
+    position:relative;
+    color:#ffffff;
+}
+
+.royale{
+    width:70vw;
+    height:12vw;
+    position:relative;
+    text-align:center;
+}
+
+.royale p{
+    font-family: Jockey One;
+    width:60vw;
+    height:10vw;
+    position:absolute;
+    font-size:55px;
+    background-color:#ffffff;
+    color:#000000;
+    padding:10px;
+    left:27%;
+}
+
+.mode2{
+    width:90vw;
+    height:22vw;
+    position:relative;
+    padding-top:40px;
+}
+
+.mode2 p{
+    font-family: Jockey One;
+    width:80vw;
+    height:20vw;
+    position:absolute;
+    font-size:30.5px;
+    background-color:#f25437;
+    left:10%;
+    text-align:center;
+    padding:10px;
+}
+
+.view2{
+    width:30vw;
+    height:25vw;
+    position:relative;
+    width:90%;
+}
+
+.view2 p{
+    font-family: Jockey One;
+    width:30vw;
+    height:7vw;
+    position:absolute;
+    background-color:#ff0000;
+    color: white;
+    left:80%;
+    top:75%;
+    font-size:29px;
+    text-align:center;
+}
+
+.view2 p:hover{
+    font-family: Jockey One;
+    width:30vw;
+    height:7vw;
+    position:absolute;
+    background-color:#F25437;
+    color: white;
+    left:80%;
+    top:75%;
+    font-size:29px;
+    text-align:center; 
+}
+
+.line{
+    width:100vw;
+    height:1px;
+    background-color:#ffffff;
+    margin:100px 0;
+}
+
+/* about us 100% */
+@media (max-width:1300px){
+    .image img{
+        width:100%;
+        height:40%;
+    }
+    .side{
+        width:25vw;
+        height:5vw;
+        font-size:30px;
+        right:10%;
+        bottom:5%;
+    }
+    .side:hover{
+        width:25vw;
+        height:5vw;
+        font-size:30px;
+        right:10%;
+        bottom:5%;
+    }
+    .box{
+        margin-left: 10px;
+        width:80vw;
+        height:8.5vw;
+        left:9.25%;
+        font-size:30px;
+    }
+    .side1{
+        font-size:30px;
+    }
+    .side1:hover{
+        font-size:30px;
+    }
+    .side1 p{
+        width:23vw;
+        height:3vw;
+        padding:10px;
+    }
+    .box1{
+        margin-left: 123px;
+        font-size:30px;
+    }
+    .arena p{
+        font-size:50px;
+    }
+    .mode p{
+        font-size:28px;
+    }
+    .view p{
+        width:30vw;
+        height:5vw;
+        font-size:27px;
+    }
+    .view p:hover{
+        width:30vw;
+        height:5vw;
+        font-size:27px;
+    }
+    .royale p{
+        font-size:50px;
+    }
+    .mode2 p{
+        font-size:28px;
+    }
+    .view2 p{
+        font-size:27px;
+    }
+    
+    .view2 p:hover{
+        font-size:27px;
+    }
+}
+/* about us 110% */
+@media (max-width:1200px){ 
+    .image img{
+        width:100%;
+        height:40%;
+    }
+    .adex{
+        width:35vw;
+        height:6vw;
+    } 
+    .side{
+        font-size:28px;
+    }
+    .side:hover{
+        font-size:28px;
+    }
+    
+    .side p{
+        padding-left: 3px;
+    }
+    .box{
+        font-size:30px;
+    }
+    .side1{
+        font-size:28px;
+    }
+    .side1:hover{
+        font-size:28px;
+    }
+    .box1{
+        margin-left: 103px;
+        font-size:30px;
+    }
+    .arena p{
+        font-size:50px;
+    }  
+    .mode p{
+        font-size:25px;
+    }  
+    .view p{
+        font-size:25px;
+    }
+    .view p:hover{
+        font-size:25px;
+    }  
+    .royale p{
+        font-size:50px;
+    } 
+    .mode2 p{
+        font-size:25px;
+    } 
+    .view2 p{
+        font-size:25px;
+    }
+    .view2 p:hover{
+        font-size:25px;
+    }
+}
+
+@media (max-width:1100px){
+    .image img{
+        width:100%;
+        height:40%;
+    }
+    .adex{
+        width:35vw;
+        height:6vw;
+        font-size:20px;
+    }
+    .desc{
+        font-size:16px;
+    }
+    .side{
+        font-size:25px;
+    }
+    .side:hover{
+        font-size:25px;
+    }
+    .box{
+        font-size:25px;
+        margin-left: 5px;
+    }
+    .side1{
+        font-size:25px;
+    }
+    .side1:hover{
+        font-size:25px;
+    }
+    .box1{
+        margin-left: 87px;
+        font-size:25px;
+    }
+    .arena p{
+        font-size:45px;
+    }
+    .mode p{
+        font-size:22px;
+    }
+    .view p{
+        font-size:25px;
+    }
+    .view p:hover{
+        font-size:25px;
+    }
+    .royale p{
+        font-size:45px;
+    } 
+    .mode2 p{
+        font-size:22px;
+    }  
+    .view2 p{
+        font-size:22px;
+    }
+    .view2 p:hover{
+        font-size:22px;
+    }
+}
+@media (max-width:1000px){
+    .image img{
+        width:100%;
+        height:40%;
+    }
+    .adex{
+        font-size:20px;
+    }
+    .desc{
+        font-size:16px;
+    }  
+    .side{
+        font-size:26px;
+    }
+    .side:hover{
+        font-size:26px;
+    }
+    .box{
+        font-size:26px;
+    }
+    .side1{
+        font-size:22px;
+    }
+    .side1:hover{
+        width:25vw;
+        height:5vw;
+        font-size:22px;
+    }
+    .box1{
+        margin-left: 80px;
+        font-size:26px;
+    }    
+    .arena p{
+        font-size:40px;
+    }
+    .mode{
+        width:90vw;
+        height:15vw;
+        padding-top:60px;
+    }
+    .mode p{
+        font-size:22px;
+    }
+    .view p{
+        font-size:25px;
+    }
+    .view p:hover{
+        font-size:25px;
+    }
+    .royale p{
+        font-size:40px;
+    }
+    .mode2 p{
+        font-size:21.5px;
+    }
+    .view2 p{
+        font-size:20px;
+    }
+    .view2 p:hover{
+        font-size:22px;
+    }
+}
+
+@media (max-width:800px){
+    .image img{
+        width:100%;
+        height:40%;
+    }
+    .adex{
+        font-size:18px;
+    }
+    .desc{
+        font-size:14px;
+    }
+    .snake{
+        margin-top: -100px;
+    }
+    .side{
+        font-size:21px;
+    }
+    .side:hover{
+        font-size:21px;
+    }
+    .box{
+        font-size:24px;
+    }  
+    .side1{
+        font-size:20px;
+    }
+    .side1:hover{
+        width:25vw;
+        height:5vw;
+        font-size:20px;
+    }
+    .box1{
+        margin-left: 75px;
+        font-size:24px;
+    }
+    .arena p{
+        font-size:35px;
+    }  
+    .mode{
+        padding-top:60px;
+    }
+    .mode p{
+        font-size:18px;
+    }
+    .view p{
+        left:80%;
+        top:45%;
+        font-size:20px;
+    }
+    .view p:hover{
+        top:45%;
+        font-size:20px;
+    }
+    .royale p{
+        font-size:35px;
+    }
+    .mode2 p{
+        font-size:18.5px;
+        left:10%;
+    }
+    .view2 p{
+        left:80%;
+        top:75%;
+        font-size:20px;
+    }
+    .view2 p:hover{
+        left:80%;
+        top:75%;
+        font-size:20px;
+    }
+}
+
+@media (max-width:700px){
+    .image img{
+        width:100%;
+        height:40%;
+    }
+    .adex{
+        font-size:16px;
+    }  
+    .desc{
+        font-size:12px;
+    }
+    .side{
+        font-size:18px;
+    }
+    .side:hover{
+        font-size:18px;
+    }
+    .box{
+        font-size:20px;
+    }  
+    .side1{
+        font-size:17px;
+    }
+    .side1:hover{
+        font-size:18px;
+    }
+    .side1 p{
+        width:23vw;
+        height:3vw;
+        padding:10px;
+        margin-top : -5px;
+    }
+    .box1{
+        margin-left: 65px;
+        font-size:20px;
+    }  
+    .meet{
+        margin-top: -20px;
+    }
+    .arena p{
+        width:60vw;
+        height:10vw;
+        font-size:30px;
+    }
+    .mode{
+        padding-top:60px;
+    }
+    .mode p{
+        font-size:16px;
+    }
+    .view p{
+        width:30vw;
+        height:6vw;
+        font-size:20px;
+    }
+    .view p:hover{
+        top:45%;
+        font-size:20px;
+    }
+    .royale p{
+        font-size:30px;
+    }
+    .mode2 p{
+        font-size:16px;
+    }
+    .view2 p{
+        font-size:17px;
+    }
+    .view2 p:hover{
+        font-size:17px;
+    }
+}
+@media (max-width:600px){
+    .image img{
+        width:100%;
+        height:40%;
+    }
+    .adex{
+        font-size:14px;
+    }
+    .desc{
+        font-size:10px;
+    }
+    .side{
+        font-size:15px;
+    }
+    .side:hover{
+        font-size:15px;
+    }
+    .box{
+        font-size:16px;
+    }
+    .box p{
+        width:78vw;
+        height:6vw;
+    }
+    .side1{
+        font-size:14px;
+    }  
+    .side1:hover{
+        font-size:14px;
+    }
+    .box1{
+        margin-left: 56px;
+        font-size:15px;
+    } 
+    .arena p{
+        font-size:27px;
+    } 
+    .mode{
+        padding-top:50px;
+    }
+    .mode p{
+        font-size:12.5px;
+    }
+    .view p{
+        font-size:17px;
+    }
+    
+    .view p:hover{
+        top:45%;
+        font-size:17px;
+    }
+    .royale p{
+        font-size:27px;
+    }
+    .mode2 p{
+        font-size:12.5px;
+    }
+    .view2 p{
+        font-size:13px;
+    }
+    .view2 p:hover{
+        font-size:13px;
+    }
+}
+
+@media (max-width:500px){
+    .image img{
+        width:100%;
+        height:40%;
+    }
+    .adex{
+        font-size:12px;
+    }
+    .desc{
+        font-size:8px;
+    }
+    .side{
+        font-size:12px;
+    }
+    .side:hover{
+        font-size:12px;
+    }
+    .box{
+        font-size:13px;
+        margin-left: 3px;
+    }
+    .side1{
+        font-size:10px;
+    }
+    .side1 p{
+        margin-top: -5px;
+    }
+    .side1:hover{
+        font-size:11px;
+    }
+    .box1{
+        margin-left: 45px;
+        font-size:12px;
+    }
+    .arena p{
+        font-size:24px;
+    }
+    .mode p{
+        font-size:10.5px;
+    }
+    .view p{
+        top:45%;
+        font-size:14px;
+    }
+    .view p:hover{
+        top:45%;
+        font-size:14px;
+    }
+    .royale p{
+        font-size:24px;
+    }
+    .mode2 p{
+        font-size:10.5px;
+    }
+    .view2 p{
+        font-size:11px;
+    }   
+    .view2 p:hover{
+        font-size:11px;
+    }
+}
+
+@media (max-width:400px){
+    .image img{
+        width:100%;
+        height:40%;
+    }
+    .adex{
+        font-size:11px;
+    }
+    .desc{
+        font-size:7px;
+    }
+    .snake{
+        margin-top: -100px;
+    }
+    .side{
+        font-size:10px;
+    }
+    .side:hover{
+        font-size:10px;
+    }
+    .box{
+        font-size:12px;
+    }
+    .side1{
+        font-size:9px;
+    }
+    .side1:hover{
+        font-size:9px;
+    }
+    .box1{
+        margin-left: 38px;
+        font-size:12px;
+    }
+    .arena p{
+        font-size:20px;
+    }
+    .mode p{
+        font-size:10px;
+    }
+    .view p{
+        height:6.5vw;
+        top:45%;
+        font-size:10px;
+    }
+    .view p:hover{
+        height:6.5vw;
+        top:45%;
+        font-size:10px;
+    }
+    .royale p{
+        font-size:20px;
+    }  
+    .mode2 p{
+        font-size:12px;
+    }
+    .view2 p{
+        top:85%;
+        font-size:7px;
+    }  
+    .view2 p:hover{
+        top:85%;
+        font-size:7px;
+    } 
+}
+    
+/* Menu Register */
+.bungkusBorderRegister{
+    display: flex;
+    justify-content: center;
+}
+.borderKiriRegister{
+    box-sizing: border-box;
+    width: 450px;
+    height: 33px;
+    background: #FFEFCF;
+    margin-top: 70px;
+    margin-right: 30px;
+}
+.tulisanTengahRegister{
+    font-family: Jockey One;
+    font-size: 48px;
+    color: white;
+    margin-top: 50px;
+}
+.borderKananRegister{
+    box-sizing: border-box;
+    width: 450px;
+    height: 33px;
+    background:#FFEFCF;
+    margin-top: 70px;
+    margin-left: 30px; 
+}
+.username{
+    display: flex;
+    justify-content: center;
+}
+.tulisanUsernameReg{
+    font-family: Jockey One;
+    font-size: 48px;
+    color: white;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.borderUsernameReg{
+    box-sizing: border-box;
+    width: 700px;
+    height: 70px;
+    background: #FFEFCF;
+    border-radius: 0px 0px 200px 0px;
+    margin-top: 100px;
+    font-family: Jockey One;
+    font-size: 44px;
+}
+.fullName{
+    display: flex;
+    justify-content: center;
+}
+
+.tulisanFullNameReg{
+    font-family: Jockey One;
+    font-size: 48px;
+    color: white;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.borderFullNameReg{
+    box-sizing: border-box;
+    width: 700px;
+    height: 70px;
+    background: #FFEFCF;
+    border-radius: 0px 0px 200px 0px;
+    margin-top: 100px; 
+    font-family: Jockey One;
+    font-size: 44px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+}
+.tulisanEmailReg{
+    font-family: Jockey One;
+    font-size: 48px;
+    color: white;
+    margin-top: 100px;
+    margin-right: 180px;
+}
+.borderEmailReg{
+    box-sizing: border-box;
+    width: 700px;
+    height: 70px;
+    background: #FFEFCF;
+    border-radius: 0px 0px 200px 0px;
+    margin-top: 100px; 
+    font-family: Jockey One;
+    font-size: 44px;
+}
+.password{
+    display: flex;
+    justify-content: center;
+}
+.tulisanPasswordReg{
+    font-family: Jockey One;
+    font-size: 48px;
+    color: white;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.borderPasswordReg{
+    box-sizing: border-box;
+    width: 700px;
+    height: 70px;
+    background: #FFEFCF;
+    border-radius: 0px 0px 200px 0px;
+    margin-top: 100px; 
+    font-family: Jockey One;
+    font-size: 44px;
+}
+.address{
+    display: flex;
+    justify-content: center;
+}
+.tulisanAddressReg{
+    font-family: Jockey One;
+    font-size: 48px;
+    color: white;
+    margin-top: 100px;
+    margin-right: 133px;
+}
+.borderAddressReg{
+    box-sizing: border-box;
+    width: 700px;
+    height: 70px;
+    background: #FFEFCF;
+    border-radius: 0px 0px 200px 0px;
+    margin-top: 100px; 
+    font-family: Jockey One;
+    font-size: 44px;
+}
+.submitRegister{
+    display: flex;
+    justify-content: center;
+}
+.borderSubmitRegister{
+    box-sizing: border-box;
+    width: 600px;
+    height: 145px;
+    background: #F25437;
+    margin-top: 100px;
+    font-family: Jockey One;
+    font-size: 44px;
+}
+@media(max-width: 1300px){
+    .borderKiriRegister{
+        width: 300px;
+        height: 25px;
+    }
+    .tulisanTengahRegister{
+        font-size: 32px;
+    }
+    .borderKananRegister{
+        width: 300px;
+        height: 25px;
+    }
+}
+
+@media(max-width: 800px){
+    .borderKiriRegister{
+        width: 200px;
+        height: 15px;
+    }
+    .tulisanTengahRegister{
+        font-size: 24px;
+    }
+    .borderKananRegister{
+        width: 200px;
+        height: 15px;
+    }
+    .tulisanUsernameReg{
+        font-family: Jockey One;
+        font-size: 30px;
+        color: white;
+        margin-top: 100px;
+        margin-right: 100px;
+    }
+    .borderUsernameReg{
+        box-sizing: border-box;
+        width: 400px;
+        height: 50px;
+        background: #FFEFCF;
+        border-radius: 0px 0px 200px 0px;
+        margin-top: 100px;
+        font-family: Jockey One;
+        font-size: 30px;
+    }
+    .tulisanFullNameReg{
+        font-family: Jockey One;
+        font-size: 30px;
+    }
+    .borderFullNameReg{
+        box-sizing: border-box;
+        width: 400px;
+        height: 50px;
+        font-size: 30px;
+    }
+    .tulisanEmailReg{
+        font-size: 30px;
+    }
+    .borderEmailReg{
+        width: 400px;
+        height: 50px;
+        font-size: 30px;
+        margin-left: -20px;
+    }
+
+    .tulisanPasswordReg{
+        font-size: 30px;
+    }
+    
+    .borderPasswordReg{
+        width: 400px;
+        height: 50px;
+        margin-left: -5px;
+        font-size: 30px;
+    }
+
+    .tulisanAddressReg{
+        font-family: Jockey One;
+        font-size: 30px;
+    }
+    
+    .borderAddressReg{
+        box-sizing: border-box;
+        width: 400px;
+        height: 50px;
+        font-size: 30px;
+    }
+    
+    .submitRegister{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .borderSubmitRegister{
+        width: 400px;
+        height: 100px;
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 700px){
+    .borderKiriRegister{
+        width: 150px;
+        height: 12px;
+    }
+    .tulisanTengahRegister{
+        font-size: 20px;
+    }
+    .borderKananRegister{
+        width: 150px;
+        height: 12px;
+    }
+    .tulisanUsernameReg{
+        font-size: 25px;
+        margin-top: 100px;
+        margin-right: 100px;
+    }
+    .borderUsernameReg{
+        width: 350px;
+        height: 40px;
+        font-size: 25px;
+    }
+    .tulisanFullNameReg{
+        font-size: 25px;
+    }
+    .borderFullNameReg{
+        width: 350px;
+        height: 40px;
+        font-size: 25px;
+    }
+    .tulisanEmailReg{
+        font-size: 25px;
+    }
+    .borderEmailReg{
+        width: 350px;
+        height: 40px;
+        font-size: 25px;
+        margin-left: -25px;
+    }
+    .tulisanPasswordReg{
+        font-size: 25px;
+    }
+    .borderPasswordReg{
+        width: 350px;
+        height: 40px;
+        font-size: 25px;
+        margin-left: 8px;
+    }
+    .tulisanAddressReg{
+        font-size: 25px;
+    }
+    .borderAddressReg{
+        width: 350px;
+        height: 40px;
+        font-size: 25px;
+    }
+    .borderSubmitRegister{
+        width: 350px;
+        height: 80px;
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 600px){
+    .tulisanUsernameReg{
+        font-size: 20px;
+        margin-top: 100px;
+        margin-right: 100px;
+    }
+    .borderUsernameReg{
+        width: 300px;
+        height: 35px;
+        font-size: 20px;
+    }
+    .tulisanFullNameReg{
+        font-size: 20px;
+    }
+    .borderFullNameReg{
+        width: 300px;
+        height: 35px;
+        font-size: 20px;
+    }
+    .tulisanEmailReg{
+        font-size: 20px;
+    }
+    .borderEmailReg{
+        width: 300px;
+        height: 35px;
+        font-size: 20px;
+        margin-left: -45px;
+    }
+    .tulisanPasswordReg{
+        font-size: 20px;
+    }
+    .borderPasswordReg{
+        width: 300px;
+        height: 35px;
+        font-size: 20px;
+        margin-left: 8px;
+    }
+    .tulisanAddressReg{
+        font-size: 20px;
+    }
+    .borderAddressReg{
+        width: 300px;
+        height: 35px;
+        font-size: 20px;
+        margin-left: -15px;
+    }
+    .borderSubmitRegister{
+        width: 350px;
+        height: 80px;
+        font-size: 25px;
+    }
+}
+@media(max-width: 500px){
+    .borderKiriRegister{
+        width: 120px;
+        height: 12px;
+    }
+    .tulisanTengahRegister{
+        font-size: 15px;
+        margin-top: 60px;
+    }
+    .borderKananRegister{
+        width: 120px;
+        height: 12px;
+    }
+    .tulisanUsernameReg{
+        font-size: 15px;
+        margin-top: 100px;
+        margin-right: 100px;
+    }
+    .borderUsernameReg{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .tulisanFullNameReg{
+        font-size: 15px;
+        margin-top : 40px;
+    }
+    .borderFullNameReg{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        margin-top : 40px;
+    }
+    .tulisanEmailReg{
+        font-size: 15px;
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+    .borderEmailReg{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        margin-left: -50px;
+        margin-top: 40px;
+    }
+    .tulisanPasswordReg{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .borderPasswordReg{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        margin-left: 8px;
+        margin-top: 40px;
+    }
+    .tulisanAddressReg{
+        font-size: 15px;
+        margin-top: 40px;
+    }
+    .borderAddressReg{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        margin-left: -15px;
+        margin-top: 40px;
+    }
+    .borderSubmitRegister{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 400px){
+    .borderKiriRegister{
+        width: 100px;
+        height: 12px;
+    }
+    .tulisanTengahRegister{
+        font-size: 12px;
+        margin-top: 65px;
+    }
+    .borderKananRegister{
+        width: 100px;
+        height: 12px;
+    }
+    .tulisanUsernameReg{
+        font-size: 12px;
+        margin-top: 100px;
+        margin-right: 100px;
+    }
+    .borderUsernameReg{
+        width: 180px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .tulisanFullNameReg{
+        font-size: 12px;
+    }
+    .borderFullNameReg{
+        width: 180px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .tulisanEmailReg{
+        font-size: 12px;
+    }
+    .borderEmailReg{
+        width: 180px;
+        height: 25px;
+        font-size: 12px;
+        margin-left: -60px;
+        margin-top: 40px;
+    }
+    .tulisanPasswordReg{
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    .borderPasswordReg{
+        width: 180px;
+        height: 25px;
+        font-size: 12px;
+        margin-left: 4px;
+    }
+    .tulisanAddressReg{
+        font-size: 12px;
+    }
+    .borderAddressReg{
+        width: 180px;
+        height: 25px;
+        font-size: 12px;
+        margin-left: -20px;
+    }
+}
+
+/* menu Regis Complete */
+.bungkusCompleteRegis{
+    display: flex;
+    justify-content: center;
+}
+
+.logoSuccess{
+    width: 285px;
+    height: 285px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.borderCompleteRegis{
+    width: 880px;
+    height: 752px;
+    background: #FFEFCF;
+    margin-top: 120px;
+}
+
+.bungkusCompleteRegis2{
+    display: flex;
+    justify-content: center;
+}
+
+.tulisanSuccess{
+    text-align: center;
+    font-family: Jockey One;
+    font-size: 100px;
+    color: black;
+    margin-top: 200px;
+}
+
+.congrats{
+    width: 570px;
+    text-align: center;
+    font-size: 48px;
+    font-family: Jockey One;
+    color: black;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.borderContinue{
+    width: 230px;
+    height: 60px;
+    background: #F25437;
+    border-radius: 40px;
+    margin-left: 330px;
+}
+
+.tulisanContinue{
+    font-family: Jockey One;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 100px;
+}
+
+@media(max-width :1000px){
+    .logoSuccess{
+        width: 200px;
+        height: 200px;
+    }
+    .borderCompleteRegis{
+        width: 700px;
+        height: 752px;
+    }
+    .tulisanSuccess{
+        font-size: 70px;
+    }  
+    .congrats{
+        width: 450px;
+        font-size: 35px;
+        margin-left: 130px;
+    }
+    .borderContinue{
+        width: 150px;
+        height: 50px;
+        margin-left: 290px;
+    }
+    .tulisanContinue{
+        font-family: Jockey One;
+        font-size: 32px;
+        color: black;
+        text-align: center;
+        padding-top: 5px;
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 800px){
+    .logoSuccess{
+        width: 150px;
+        height: 150px;
+    }
+    .borderCompleteRegis{
+        width: 500px;
+        height: 650px;
+    }
+    .tulisanSuccess{
+        font-size: 55px;
+    }  
+    .congrats{
+        width: 350px;
+        font-size: 25px;
+        margin-left: 80px;
+    }
+    .borderContinue{
+        width: 150px;
+        height: 50px;
+        margin-left: 180px;
+    }
+}
+
+@media(max-width: 600px){
+    .logoSuccess{
+        width: 100px;
+        height: 100px;
+    }
+    .borderCompleteRegis{
+        width: 380px;
+        height: 460px;
+        margin-top: 80px;
+    }
+    .tulisanSuccess{
+        font-size: 40px;
+        margin-top : 100px;
+    }  
+    .congrats{
+        width: 300px;
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    .borderContinue{
+        width: 100px;
+        height: 40px;
+        margin-left: 140px;
+    }
+    .tulisanContinue{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 400px){
+    .logoSuccess{
+        width: 80px;
+        height: 80px;
+    }
+    .borderCompleteRegis{
+        width: 300px;
+        height: 370px;
+        margin-top: 80px;
+    }
+    .tulisanSuccess{
+        font-size: 30px;
+        margin-top : 100px;
+    }  
+    .congrats{
+        width: 200px;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+    .borderContinue{
+        width: 100px;
+        height: 40px;
+        margin-left: 95px;
+        margin-top: -40px;
+    }
+    .tulisanContinue{
+        font-size: 20px;
+    }
+}
+
+/* footer */
+.bungkusFooter1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    margin-top: 40px;
+    background-color: white;
+    width: 100vw;
+    height: 240px;
+}
+
+.logoLogoFooter{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.logoAdexLegendFooter1{
+    width: 400px;
+    height: 200px;
+    margin-left: -80px;
+}
+
+.logoEAFooter1{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.logoCopyRight{
+    width: 30px;
+    height: 30px;
+}
+
+.tulisanCopyRight{
+    margin-left: 40px;
+    margin-top: -25px;
+}
+
+.tulisanSignUpLatestNews{
+    margin-left: 200px;
+    width: 350px;
+    font-family: Jaldi;
+    font-size: 24px;
+    color: black;
+    margin-left: -80px;
+}
+
+.borderEmail{
+    box-sizing: border-box;
+    width: 350px;
+    height: 75px;
+    background: white;
+    border: 1px solid black;
+    margin-left: -80px;
+    margin-top: 20px;
+    font-family: Jockey One;
+    font-size: 25px;
+}
+
+.borderSubmit{
+    box-sizing: border-box;
+    width: 200px;
+    height: 75px;
+    margin-top: 20px;
+    padding-right: 20px;
+    background: #BA3737;
+    border: 1px solid black;
+    font-family: Jaldi;
+    font-size: 30px;
+    color: white;
+}
+
+.bungkusBorderEmail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefitSignUp{
+    font-family: Jaldi;
+    font-size: 13px;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+.tulisanConnect{
+    font-family: Jaldi;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-left: -60px;
+}
+
+
+.bungkusConnect{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoIGFooter{
+    width: 60px;
+    height: 60px;
+    margin-left: -50px;
+}
+
+.logoFacebookFooter{
+    width: 80px;
+    height: 80px;
+    margin-top: -5px;
+}
+
+.logoYtFooter{
+    width: 70px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.logoTwitFooter{
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+}
+
+.bungkusFooter1Tab{
+    display: none;
+}
+
+@media(max-width: 1400px){
+    .logoAdexLegendFooter1{
+        width: 380px;
+        height: 180px;
+    }
+    
+    .logoEAFooter1{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .tulisanSignUpLatestNews{
+        font-size: 23px;
+    }
+    
+    .borderEmail{
+        width: 330px;
+        height: 75px;
+    }
+    
+    .tulisanEnterEmail{
+        font-size: 30px;
+    }
+    
+    .borderSubmit{
+        width: 170px;
+        height: 75px;
+    }
+    
+    .tulisanSubmit{
+        padding-left: 30px;
+    }
+}
+
+@media(max-width: 1300px){
+    .logoAdexLegendFooter1{
+        width: 300px;
+        height: 130px;
+        margin-left: -60px;
+    }
+    
+    .logoEAFooter1{
+        width: 60px;
+        height: 60px;
+        margin-top: 15px;
+    }
+    
+    .tulisanSignUpLatestNews{
+        font-size: 20px;
+    }
+    
+    .borderEmail{
+        width: 280px;
+        height: 60px;
+    }
+    
+    .tulisanEnterEmail{
+        font-size: 25px;
+    }
+    
+    .borderSubmit{
+        width: 140px;
+        height: 60px;
+    }
+    
+    .tulisanSubmit{
+        font-size: 25px;
+        padding-left: 30px;
+    }
+}
+
+@media(max-width: 1100px){
+    .footer{
+        margin-top: 40px;
+        width: 100vw;
+        height: 180px;
+    }
+
+    .logoAdexLegendFooter1{
+        width: 250px;
+        height: 120px;
+        margin-left: -40px;
+    }
+    
+    .logoEAFooter1{
+        width: 60px;
+        height: 60px;
+        margin-top: 15px;
+        margin-left: -10px;
+    }
+    
+    .tulisanSignUpLatestNews{
+        font-size: 15px;
+    }
+    
+    .borderEmail{
+        width: 230px;
+        height: 40px;
+    }
+    
+    .tulisanEnterEmail{
+        font-size: 20px;
+        margin-top: -5px;
+    }
+    
+    .borderSubmit{
+        width: 120px;
+        height: 40px;
+    }
+    
+    .tulisanSubmit{
+        font-size: 20px;
+        padding-left: 30px;
+        margin-top: -8px;
+    }
+
+    
+    .benefitSignUp{
+    font-size: 12px;
+    }
+
+    .tulisanConnect{
+        font-size: 20px;
+    }
+    
+    
+    .bungkusConnect{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logoIGFooter{
+        width: 40px;
+        height: 40px;
+        margin-left: -30px;
+    }
+    
+    .logoFacebookFooter{
+        width: 50px;
+        height: 50px;
+        margin-top: -5px;
+    }
+    
+    .logoYtFooter{
+        width: 45px;
+        height: 35px;
+        margin-top: 2px;
+    }
+    
+    .logoTwitFooter{
+        width: 50px;
+        height: 40px;
+        margin-top: 2px;
+    }
+}
+
+@media(max-width: 1000px){
+    .footer{
+        height: 160px;
+    }
+
+    .logoAdexLegendFooter1{
+        width: 200px;
+        height: 90px;
+    }
+    
+    .logoEAFooter1{
+        width: 45px;
+        height: 45px;
+    }
+
+    .logoCopyRight{
+        width: 18px;
+        height: 18px;
+        margin-top: 20px;
+    }
+    
+    .tulisanCopyRight{
+        margin-left: 20px;
+        margin-top: -20px;
+        font-size: 10px;
+    }
+    
+    .tulisanSignUpLatestNews{
+        font-size: 13px;
+    }
+    
+    .borderEmail{
+        width: 180px;
+        height: 30px;
+        margin-right: -20px;
+        padding-right: -20px;
+    }
+    
+    .borderSubmit{
+        width: 90px;
+        height: 30px;
+        margin-right: 81px;
+        font-size: 24px;
+    }
+    
+    .benefitSignUp{
+        font-size: 9px;
+        width: 250px;
+    }
+
+    .tulisanConnect{
+        font-size: 15px;
+        margin-left: -5px;
+    }
+    
+    .logoIGFooter{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    
+    .logoFacebookFooter{
+        width: 45px;
+        height: 45px;
+        margin-left: 10px;
+    }
+    
+    .logoYtFooter{
+        width: 35px;
+        height: 25px;
+        margin-top: 6px;
+        margin-left: 10px;
+    }
+    
+    .logoTwitFooter{
+        width: 45px;
+        height: 35px;
+        margin-top: 2px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 900px){
+    .tulisanConnect{
+        font-family: Jaldi;
+        font-size: 15px;
+        margin-left: -50px;;
+    }
+    
+    .logoIGFooter{
+        width: 30px;
+        height: 30px;
+        margin-left: -100px;
+    }
+    
+    .logoFacebookFooter{
+        width: 45px;
+        height: 45px;
+        margin-left: 10px;
+    }
+    
+    .logoYtFooter{
+        width: 35px;
+        height: 25px;
+        margin-top: 8px;
+        margin-left: 10px;
+    }
+    
+    .logoTwitFooter{
+        width: 45px;
+        height: 35px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 800px){
+
+    .footer{
+        display: none;
+    }
+    .bungkusFooter1Tab{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footerTab{
+        margin-top: 40px;
+        background-color: white;
+        width: 100vw;
+        height: 570px;
+        justify-content: center;
+    }
+    
+    .logoLogoFooterTab{
+        display: flex;
+        margin-right: 100px;
+    }
+    
+    .logoAdexLegendFooter1Tab{
+        width: 300px;
+        height: 150px;
+        margin-left: -150px;
+    } 
+    
+    .logoEAFooter1Tab{
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+    }
+    
+    .logoCopyRightTab{
+        width: 20px;
+        height: 20px;
+        margin-left: -70px;
+    }
+    
+    .tulisanCopyRightTab{
+        margin-top: -26px;
+        font-size: 15px;
+        margin-left: -40px;
+    }
+    .tulisanSignUpLatestNewsTab{
+        width: 250px;
+        font-family: Jaldi;
+        font-size: 24px;
+        color: black;
+        margin-top: 200px;
+        margin-left: -400px;
+    }
+    .borderEmailTab{
+        box-sizing: border-box;
+        width: 420px;
+        height: 75px;
+        background: white;
+        border: 1px solid black;
+        margin-left: -410px;
+        margin-top: 20px;
+        font-family: Jockey One;
+        font-size: 25px;
+    }
+    .borderSubmitTab{
+        box-sizing: border-box;
+        width: 200px;
+        height: 75px;
+        margin-top: 20px;
+        background: #BA3737;
+        border: 1px solid black;
+        font-family: Jaldi;
+        font-size: 25px;
+        color: white;
+    }
+    .bungkusBorderEmailTab{
+        display: flex;
+        justify-content: space-between;
+    }
+    .benefitSignUpTab{
+        font-family: Jaldi;
+        font-size: 13px;
+        width: 350px;
+        margin-left: -410px;
+    }
+    .tulisanConnectTab{
+        font-family: Jaldi;
+        font-size: 32px;
+        margin-top: 430px;
+        margin-left: -600px;
+    }
+    .bungkusConnectTab{
+        display: flex;
+        justify-content: space-between;
+    }
+    .logoIGFooterTab{
+        width: 60px;
+        height: 60px;
+        margin-right: 5px;
+        margin-left: -600px;
+    }
+    .logoFacebookFooterTab{
+        width: 80px;
+        height: 80px;
+        margin-top: -5px;
+        margin-right: 5px;
+    }
+    .logoYtFooterTab{
+        width: 70px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .logoTwitFooterTab{
+        width: 70px;
+        height: 70px;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 700px){
+    .footerTab{
+        margin-top: 40px;
+        width: 100vw;
+        height: 570px;
+    }
+    
+    .logoLogoFooterTab{
+        display: flex;
+        margin-right: 50px;
+    }
+    
+    .logoAdexLegendFooter1Tab{
+        width: 200px;
+        height: 100px;
+    } 
+    
+    .logoEAFooter1Tab{
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+    }
+    
+    .logoCopyRightTab{
+        width: 20px;
+        height: 20px;
+        margin-left: -100px;
+    }
+    
+    .tulisanCopyRightTab{
+        margin-top: -26px;
+        font-size: 15px;
+        margin-left: -80px;
+    }
+    
+    .tulisanSignUpLatestNewsTab{
+        width: 250px;
+        font-size: 21px;
+        margin-top: 200px;
+        margin-left: -250px;
+    }
+    .borderEmailTab{
+        width: 300px;
+        height: 60px;
+        margin-top: 20px;
+        margin-left: -250px;
+    }
+    .borderSubmitTab{
+        box-sizing: border-box;
+        width: 100px;
+        height: 60px;
+        margin-top: 20px;
+    }
+    .benefitSignUpTab{
+        font-size: 13px;
+        width: 350px;
+        margin-left: -250px;
+    }
+    .tulisanConnectTab{
+        font-size: 20px;
+        margin-top: 430px;
+        margin-left: -400px;
+    } 
+    .logoIGFooterTab{
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+        margin-left: -400px;
+    }
+    .logoFacebookFooterTab{
+        width: 60px;
+        height: 60px;
+        margin-top: -5px;
+        margin-right: 5px;
+    }
+    .logoYtFooterTab{
+        width: 55px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .logoTwitFooterTab{
+        width: 55px;
+        height: 55px;
+        margin-left: 30px;
+    }
+}
+@media(max-width: 500px){
+    .footerTab{
+        margin-top: 40px;
+        height: 470px;
+    }   
+    .logoAdexLegendFooter1Tab{
+        width: 150px;
+        height: 80px;
+        margin-left: -70px;
+    } 
+    .logoEAFooter1Tab{
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+    }
+    .logoCopyRightTab{
+        width: 15px;
+        height: 15px;
+        margin-left: -35px;
+    }
+    .tulisanCopyRightTab{
+        margin-top: -20px;
+        font-size: 15px;
+        margin-left: -20px;
+    }
+    
+    .tulisanSignUpLatestNewsTab{
+        width: 200px;
+        font-size: 18px;
+        margin-top: 150px;
+        margin-left: -250px;
+    }
+    .borderEmailTab{
+        width: 280px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: -250px;
+    }
+    
+    .borderSubmitTab{
+        box-sizing: border-box;
+        width: 80px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+    .benefitSignUpTab{
+        font-size: 13px;
+        width: 350px;
+        margin-left: -250px;
+    }
+    
+    .tulisanConnectTab{
+        font-size: 20px;
+        margin-top: 350px;
+        margin-left: -350px;
+    }
+    .logoIGFooterTab{
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+        margin-left: -350px;
+    }
+    .logoFacebookFooterTab{
+        width: 60px;
+        height: 60px;
+        margin-top: -7px;
+        margin-right: 5px;
+    }
+    .logoYtFooterTab{
+        width: 55px;
+        height: 40px;
+        margin-top: 5px;
+    }
+    .logoTwitFooterTab{
+        width: 55px;
+        height: 55px;
+        margin-left: 30px;
+    }
+}
+@media(max-width: 400px){
+    .logoAdexLegendFooter1Tab{
+        margin-left: -20px;
+    } 
+    .logoCopyRightTab{
+        width: 15px;
+        height: 15px;
+        margin-left: 0px;
+    }
+    
+    .tulisanCopyRightTab{
+        margin-top: -20px;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+}
